@@ -1,0 +1,17 @@
+{
+    "ml.email.signup-welcome.preheader": "",
+    "ml.email.signup-welcome.header.hl": "",
+    "ml.email.signup-welcome.header.subline": "",
+    "ml.email.signup-welcome.greeting": "",
+    "ml.email.signup-welcome.p1": "",
+    "ml.email.signup-welcome.p2": "",
+    "ml.email.signup-welcome.button.label": "",
+    "ml.email.signup-welcome.button.link": "",
+    "ml.email.signup-welcome.tenant.hl": "",
+    "ml.email.signup-welcome.cta.hl": "",
+    "ml.email.signup-welcome.cta.p": "",
+    "ml.email.signup-welcome.end.p": "",
+    "ml.email.signup-welcome.end.p2": "",
+    "ml.email.signup-welcome.footer": "",
+    "signup-welcome:tenant:p": ""
+}

@@ -43,7 +43,7 @@ en:
                     image2: 'https://sportalliance.cdn.salesforce-experience.com/cms/delivery/media/MCPL3WDWYZ6VC37BYVZ6PQOCVFYY?oid=00D2X000000sWe4UAE&channelId=0ap9W000000008lQAA'
                     text2: '${recipient_email}'
                     link: '0'
-            paragraph: '<b>Gut zu wissen:</b> Alle von dir eingegebenen Daten werden nur zu Demo-Zwecken gespeichert und nach 30 Tagen gelöscht. Ein Wechsel auf das <a href=''${tenant_url}/?checkout_campaign=true&checkout_campaign_source=demo_sign_up''>kostenfreie Free Paket</a> ist jederzeit möglich.'
+            paragraph: '<b> Good to know: </b> All data you enter will only be saved for demo purposes and will be deleted after 30 days. You can switch to the <a href=''${tenant_url}/?checkout_campaign=true&checkout_campaign_source=demo_sign_up''> free package </a> at any time.'
     -
         space-smaller: ''
     -

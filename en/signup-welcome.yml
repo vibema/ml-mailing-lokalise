@@ -1,1 +1,22 @@
-header: Hallo
+en:
+    signup-welcome:
+        preheader: ''
+        header:
+            hl: ''
+            subline: ''
+        greeting: ''
+        p1: ''
+        p2: ''
+        button:
+            label: ''
+            link: ''
+        tenant:
+            hl: ''
+            p: ''
+        cta:
+            hl: ''
+            p: ''
+        end:
+            p: ''
+            p2: ''
+        footer: ''

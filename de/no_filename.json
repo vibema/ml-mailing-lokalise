@@ -1,0 +1,17 @@
+{
+    "ml.email.signup-welcome.preheader": "Jetzt 30 Tage kostenlos ausprobieren.",
+    "ml.email.signup-welcome.header.hl": "Deine kostenlose Magicline Demo",
+    "ml.email.signup-welcome.header.subline": "Jetzt 30 Tage lang testen",
+    "ml.email.signup-welcome.greeting": "Lieber Magicliner,",
+    "ml.email.signup-welcome.p1": "wie schön, dass du da bist und die Magicline als Demo kennenlernen möchtest. Dein Testaccount steht dir ab sofort <b>für die nächsten 30 Tage kostenlos<\/b> zur Verfügung. So bekommst du am besten ein Gefühl für unsere Software.",
+    "ml.email.signup-welcome.p2": "Du willst den persönlichen Einblick? Buch dir jetzt deine kostenlose Beratung und erfahre, wie dir die Magicline zu mehr Umsatz und Wachstum verhilft.",
+    "ml.email.signup-welcome.button.label": "Kostenlosen Termin buchen",
+    "ml.email.signup-welcome.button.link": "https:\/\/demodesk.com\/book\/sport-alliance-team\/magicline\/?utm_source=magicline&utm_medium=mailing&utm_campaign=demo_sign_up",
+    "ml.email.signup-welcome.tenant.hl": "Deine Zugangsdaten",
+    "ml.email.signup-welcome.cta.hl": "Dein persönlicher Infotermin",
+    "ml.email.signup-welcome.cta.p": "Unser Team ist gerne für dich da und zeigt dir in einem kurzen Termin, welche Möglichkeiten dir Magicline bietet.",
+    "ml.email.signup-welcome.end.p": "Wir wünschen dir nun viel Spaß mit deinem Demo-Account.",
+    "ml.email.signup-welcome.end.p2": "Viele Grüße <br\/> <strong>Dein Magicline Team<\/strong>",
+    "ml.email.signup-welcome.footer": "<small style='display: block; font-size: clamp(8px, 90%, 3vw); line-height: 120%;'>Es gelten die jeweils aktuellen <a href='${gtc_url}' target='_blank' style='text-decoration: underline;'>AGB<\/a> zur Softwarenutzung, die <a target='_blank' href='${privacy_url}' style='text-decoration: underline;'>Datenschutzvereinbarung<\/a> sowie die <a href='${dpa_url}' target='_blank' style='text-decoration: underline;'>Vereinbarung zur Auftragsverarbeitung (AVV)<\/a>.<\/small>",
+    "ml.email.signup-welcome.tenant.p": "<b>Gut zu wissen:<\/b> Alle von dir eingegebenen Daten werden nur zu Demo-Zwecken gespeichert und nach 30 Tagen gelöscht. Ein Wechsel auf das <a href='${tenant_url}\/?checkout_campaign=true&checkout_campaign_source=demo_sign_up'>kostenfreie Free Paket<\/a> ist jederzeit möglich."
+}

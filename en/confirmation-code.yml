@@ -1,0 +1,40 @@
+en:
+  confirmation-code:
+    -
+      preheader:
+        paragraph: ''
+    -
+      header:
+        viewOnline: 'false'
+        websiteUri: ''
+    -
+      headerImage:
+        headline: ''
+        imageUri: 'https://sportalliance.cdn.salesforce-experience.com/cms/delivery/media/MC3PD374BR7ZFTREW4G6DLYXUBCA?oid=00D2X000000sWe4UAE&channelId=0ap9W000000008lQAA'
+    -
+      space: ''
+    -
+      paragraph:
+        headline: ''
+        paragraph: ''
+    -
+      code:
+        code: '${recipient_email_confirmation_code}'
+    -
+      paragraph:
+        paragraph: ''
+    -
+      paragraph:
+        paragraph: ''
+    -
+      space: ''
+    -
+      divider: ''
+    -
+      paragraph:
+        paragraph: ''
+    -
+      footer:
+        hideUnsubscribe: 'true'
+    -
+      space: ''

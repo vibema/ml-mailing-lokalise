@@ -1,26 +1,38 @@
 de:
-    - preheader:
-        paragraph: "Bestätige jetzt deine  E-Mail-Adresse, um deine Bestellung abzuschließen."
-    - header:
-        viewOnline: "false"
-        websiteUri: "https://magicline.com/de/"
-    - headerImage:
-        headline: "Dein Magicline Bestätigungscode"
-        imageUri: "https://sportalliance.cdn.salesforce-experience.com/cms/delivery/media/MC3PD374BR7ZFTREW4G6DLYXUBCA?oid=00D2X000000sWe4UAE&channelId=0ap9W000000008lQAA"
-    - space:
-    - paragraph:
-        headline: "Hallo ${recipient_firstname},"
-        paragraph: "nutze diesen Bestätigungscode, um deine E-Mail-Adresse zu verifizieren und den Bestellvorgang für deine persönliche Magicline abzuschließen."
-    - code:
-        code: "${recipient_email_confirmation_code}"
-    - paragraph:
-        paragraph: "Wir wünschen dir nun viel Erfolg mit der Magicline."
-    - paragraph:
-        paragraph: "Viele Grüße <br/> <strong>Dein Magicline Team</strong>"
-    - space:
-    - divider:
-    - paragraph:
-        paragraph: "<small style='display: block; font-size: clamp(8px, 90%, 3vw); line-height: 120%;'>Es gelten die jeweils aktuellen <a href='${gtc_url}' target='_blank' style='text-decoration: underline;'>AGB</a> zur Softwarenutzung, die <a target='_blank' href='${privacy_url}' style='text-decoration: underline;'>Datenschutzvereinbarung</a> sowie die <a href='${dpa_url}' target='_blank' style='text-decoration: underline;'>Vereinbarung zur Auftragsverarbeitung (AVV)</a>.</small>"
-    - footer:
-        hideUnsubscribe: "true"
-    - space:
+    -
+        preheader:
+            paragraph: "Bestätige jetzt deine  E-Mail-Adresse, um deine Bestellung abzuschließen."
+    -
+        header:
+            viewOnline: "false"
+            websiteUri: "https://magicline.com/de/"
+    -
+        headerImage:
+            headline: "Dein Magicline Bestätigungscode"
+            imageUri: "https://sportalliance.cdn.salesforce-experience.com/cms/delivery/media/MC3PD374BR7ZFTREW4G6DLYXUBCA?oid=00D2X000000sWe4UAE&channelId=0ap9W000000008lQAA"
+    -
+        space:
+    -
+        paragraph:
+            headline: "Hallo ${recipient_firstname},"
+            paragraph: "nutze diesen Bestätigungscode, um deine E-Mail-Adresse zu verifizieren und den Bestellvorgang für deine persönliche Magicline abzuschließen."
+    -
+        code:
+            code: "${recipient_email_confirmation_code}"
+    -
+        paragraph:
+            paragraph: "Wir wünschen dir nun viel Erfolg mit der Magicline."
+    -
+        paragraph:
+            paragraph: "Viele Grüße <br/> <strong>Dein Magicline Team</strong>"
+    -
+        space:
+    -
+        divider:
+    -
+        paragraph:
+            paragraph: "<small style='display: block; font-size: clamp(8px, 90%, 3vw); line-height: 120%;'>Es gelten die jeweils aktuellen <a href='${gtc_url}' target='_blank' style='text-decoration: underline;'>AGB</a> zur Softwarenutzung, die <a target='_blank' href='${privacy_url}' style='text-decoration: underline;'>Datenschutzvereinbarung</a> sowie die <a href='${dpa_url}' target='_blank' style='text-decoration: underline;'>Vereinbarung zur Auftragsverarbeitung (AVV)</a>.</small>"
+    -
+        footer:
+            hideUnsubscribe: "true"
+    -     space:

@@ -1,4 +1,4 @@
-en:
+nl:
     -
         preheader:
             paragraph: ''
@@ -18,7 +18,7 @@ en:
             paragraph: ''
     -
         code:
-            code: '${recipient_email_confirmation_code}'
+            code: ''
     -
         paragraph:
             paragraph: ''
@@ -34,6 +34,6 @@ en:
             paragraph: ''
     -
         footer:
-            hideUnsubscribe: 'true'
+            hideUnsubscribe: ''
     -
         space: ''

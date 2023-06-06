@@ -1,0 +1,79 @@
+es:
+    -
+        preheader:
+            paragraph: ''
+    -
+        header:
+            viewOnline: ''
+            websiteUri: ''
+    -
+        headerImage:
+            headline: ''
+            subline: ''
+            imageUri: ''
+    -
+        space: ''
+    -
+        space-smaller: ''
+    -
+        paragraph:
+            headline: ''
+            paragraph: ''
+    -
+        space-smaller: ''
+    -
+        paragraph:
+            headline: ''
+            paragraph: ''
+    -
+        space-smaller: ''
+    -
+        button:
+            buttonLabel: ''
+            buttonLink: ''
+    -
+        tenant:
+            headline: ''
+            list:
+                -
+                    image1: ''
+                    text1: ''
+                    link: ''
+                -
+                    image2: ''
+                    text2: ''
+                    link: ''
+            paragraph: ''
+    -
+        space-smaller: ''
+    -
+        space: ''
+    -
+        paragraph:
+            headline: ''
+            paragraph: ''
+    -
+        button:
+            buttonLabel: ''
+            buttonLink: ''
+    -
+        paragraph:
+            headline: ''
+            paragraph: ''
+    -
+        paragraph:
+            headline: ''
+            paragraph: ''
+    -
+        space: ''
+    -
+        divider: ''
+    -
+        paragraph:
+            headline: ''
+            paragraph: ''
+    -
+        footer:
+            hideUnsubscribe: ''
+    -
+        space: ''

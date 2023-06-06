@@ -1,0 +1,24 @@
+nl:
+    '12':
+        divider: ''
+    '13':
+        space: ''
+    '15':
+        paragraph:
+            condition: ''
+    '17':
+        paragraph:
+            headline: ''
+            paragraph: ''
+    '18':
+        space-smaller: ''
+    '19':
+        divider: ''
+    '20':
+        paragraph:
+            paragraph: ''
+    '21':
+        footer:
+            hideUnsubscribe: ''
+    '22':
+        space: ''

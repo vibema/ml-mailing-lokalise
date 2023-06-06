@@ -1,18 +1,28 @@
-en:
-    '4':
+fr:
+    '0':
+        header:
+            viewOnline: 'false'
+            websiteUri: ''
+    '1':
+        headerImage:
+            headline: ''
+            imageUri: 'https://sportalliance.cdn.salesforce-experience.com/cms/delivery/media/MC3PD374BR7ZFTREW4G6DLYXUBCA?oid=00D2X000000sWe4UAE&channelId=0ap9W000000008lQAA'
+    '2':
+        space: ''
+    '3':
         paragraph:
             headline: ''
             paragraph: ''
-    '5':
+    '4':
         space: ''
-    '6':
+    '5':
         package:
             headline: ''
             list:
                 -
                     image1: 'https://sportalliance.cdn.salesforce-experience.com/cms/delivery/media/MCX4PLBYUEWJEXTHXY2VQFLFRN54?oid=00D2X000000sWe4UAE&channelId=0ap9W000000008lQAA'
                     headline1: ''
-                    text1: '${pricing_tier_name} für ${price_per_month} € mtl.'
+                    text1: '${pricing_tier_name} ${price_per_month} € mtl.'
                 -
                     image2: 'https://sportalliance.cdn.salesforce-experience.com/cms/delivery/media/MC2WS3XRIGTZD2RGIVVQB3EZS3S4?oid=00D2X000000sWe4UAE&channelId=0ap9W000000008lQAA'
                     headline2: ''
@@ -22,33 +32,30 @@ en:
                     image3: 'https://sportalliance.cdn.salesforce-experience.com/cms/delivery/media/MCUIFIF3AL7ZBS3IFSYLIDTASU5U?oid=00D2X000000sWe4UAE&channelId=0ap9W000000008lQAA'
                     headline3: ''
                     text3: '${start_date_of_subscription} '
-    '7':
+    '6':
         space: ''
     '8':
-        paragraph:
-            headline: 'false'
-            paragraph: ''
-            condition: 'pricing_tier_name == "Basic"'
-    '9':
-        paragraph:
-            headline: 'false'
-            paragraph: ''
-            condition: 'pricing_tier_name == ''Advanced'' || pricing_tier_name == ''Pro'' || pricing_tier_name == ''Ultimate'''
-    '10':
         button:
-            buttonLabel: "\n"
-            buttonLink: '${tenant_url}/?campaign_source=automated_upgrade'
-    '11':
+            buttonLabel: ''
+            buttonLink: '${tenant_url}'
+    '9':
         divider: ''
-    '12':
-        space-smaller: ''
-    '13':
-        paragraph:
-            condition: 'pricing_tier_name == "Basic"'
-    '14':
+    '10':
+        space: ''
+    '11':
         paragraph:
             headline: ''
-            condition: 'pricing_tier_name == ''Advanced'' || pricing_tier_name == ''Pro'' || pricing_tier_name == ''Ultimate'''
             paragraph: ''
+    '12':
+        paragraph:
+            headline: 'false'
+            paragraph: ''
+    '14':
+        space: ''
+    '15':
+        divider: ''
     '17':
-        space-smaller: ''
+        footer:
+            hideUnsubscribe: 'true'
+    '18':
+        space: ''

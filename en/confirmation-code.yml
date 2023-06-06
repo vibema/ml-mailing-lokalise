@@ -1,39 +1,39 @@
 en:
-    -
-        preheader:
-            paragraph: ''
-    -
-        header:
-            viewOnline: ''
-            websiteUri: ''
-    -
-        headerImage:
-            headline: ''
-            imageUri: ''
-    -
-        space: ''
-    -
-        paragraph:
-            headline: ''
-            paragraph: ''
-    -
-        code:
-            code: '${recipient_email_confirmation_code}'
-    -
-        paragraph:
-            paragraph: ''
-    -
-        paragraph:
-            paragraph: ''
-    -
-        space: ''
-    -
-        divider: ''
-    -
-        paragraph:
-            paragraph: ''
-    -
-        footer:
-            hideUnsubscribe: 'true'
-    -
-        space: ''
+  -
+    preheader:
+      paragraph: ''
+  -
+    header:
+      viewOnline: ''
+      websiteUri: ''
+  -
+    headerImage:
+      headline: ''
+      imageUri: ''
+  -
+    space: ''
+  -
+    paragraph:
+      headline: ''
+      paragraph: ''
+  -
+    code:
+      code: '${recipient_email_confirmation_code}'
+  -
+    paragraph:
+      paragraph: ''
+  -
+    paragraph:
+      paragraph: ''
+  -
+    space: ''
+  -
+    divider: ''
+  -
+    paragraph:
+      paragraph: ''
+  -
+    footer:
+      hideUnsubscribe: 'true'
+  -
+    space: ''

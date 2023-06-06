@@ -1,61 +1,61 @@
 de:
-    '0':
-        header:
-            viewOnline: 'false'
-            websiteUri: 'https://magicline.com/de/'
-    '1':
-        headerImage:
-            headline: 'Deine Magicline wurde automatisch umgestellt'
-            imageUri: 'https://sportalliance.cdn.salesforce-experience.com/cms/delivery/media/MC3PD374BR7ZFTREW4G6DLYXUBCA?oid=00D2X000000sWe4UAE&channelId=0ap9W000000008lQAA'
-    '2':
-        space: ''
-    '3':
-        paragraph:
-            headline: 'Hallo ${recipient_firstname},'
-            paragraph: 'deine Magicline wurde heute automatisch auf das nächsthöhere Preispaket umgestellt, da dein Vertragslimit erreicht wurde. Die Grenze richtet sich nach der Anzahl deiner Mitglieder, die mit der Magicline verbundenen Geräte oder genutzte Partnerintegrationen, wie z. B. EGYM, Zoom oder die Connect API.'
-    '4':
-        space: ''
-    '5':
-        package:
-            headline: 'Dein neuer Magicline Vertrag im Überblick'
-            list:
-                -
-                    image1: 'https://sportalliance.cdn.salesforce-experience.com/cms/delivery/media/MCX4PLBYUEWJEXTHXY2VQFLFRN54?oid=00D2X000000sWe4UAE&channelId=0ap9W000000008lQAA'
-                    headline1: 'Dein Tarif'
-                    text1: '${pricing_tier_name} ${price_per_month} € mtl.'
-                -
-                    image2: 'https://sportalliance.cdn.salesforce-experience.com/cms/delivery/media/MC2WS3XRIGTZD2RGIVVQB3EZS3S4?oid=00D2X000000sWe4UAE&channelId=0ap9W000000008lQAA'
-                    headline2: Zahlungsmethode
-                    text2: '${payment_method}'
-                    condition: 'is_paid_pricing_tier == true'
-                -
-                    image3: 'https://sportalliance.cdn.salesforce-experience.com/cms/delivery/media/MCUIFIF3AL7ZBS3IFSYLIDTASU5U?oid=00D2X000000sWe4UAE&channelId=0ap9W000000008lQAA'
-                    headline3: Vertragsbeginn
-                    text3: '${start_date_of_subscription} '
-    '6':
-        space: ''
-    '8':
-        button:
-            buttonLabel: 'Zurück zu deiner Magicline'
-            buttonLink: '${tenant_url}'
-    '9':
-        divider: ''
-    '10':
-        space: ''
-    '11':
-        paragraph:
-            headline: 'Hast du noch Fragen?'
-            paragraph: 'Unser Team ist gerne für dich da. Sende uns einfach eine E-Mail an <a href=''mailto:support-de@magicline.com''>support-de@magicline.com</a> oder nutze die Chat-Funktion in deiner Magicline.'
-    '12':
-        paragraph:
-            headline: 'false'
-            paragraph: 'Wir wünschen dir weiterhin viel Erfolg für deinen Studiobetrieb.'
-    '14':
-        space: ''
-    '15':
-        divider: ''
-    '17':
-        footer:
-            hideUnsubscribe: 'true'
-    '18':
-        space: ''
+  '0':
+    header:
+      viewOnline: 'false'
+      websiteUri: 'https://magicline.com/de/'
+  '1':
+    headerImage:
+      headline: 'Deine Magicline wurde automatisch umgestellt'
+      imageUri: 'https://sportalliance.cdn.salesforce-experience.com/cms/delivery/media/MC3PD374BR7ZFTREW4G6DLYXUBCA?oid=00D2X000000sWe4UAE&channelId=0ap9W000000008lQAA'
+  '2':
+    space: ''
+  '3':
+    paragraph:
+      headline: 'Hallo ${recipient_firstname},'
+      paragraph: 'deine Magicline wurde heute automatisch auf das nächsthöhere Preispaket umgestellt, da dein Vertragslimit erreicht wurde. Die Grenze richtet sich nach der Anzahl deiner Mitglieder, die mit der Magicline verbundenen Geräte oder genutzte Partnerintegrationen, wie z. B. EGYM, Zoom oder die Connect API.'
+  '4':
+    space: ''
+  '5':
+    package:
+      headline: 'Dein neuer Magicline Vertrag im Überblick'
+      list:
+        -
+          image1: 'https://sportalliance.cdn.salesforce-experience.com/cms/delivery/media/MCX4PLBYUEWJEXTHXY2VQFLFRN54?oid=00D2X000000sWe4UAE&channelId=0ap9W000000008lQAA'
+          headline1: 'Dein Tarif'
+          text1: '${pricing_tier_name} ${price_per_month} € mtl.'
+        -
+          image2: 'https://sportalliance.cdn.salesforce-experience.com/cms/delivery/media/MC2WS3XRIGTZD2RGIVVQB3EZS3S4?oid=00D2X000000sWe4UAE&channelId=0ap9W000000008lQAA'
+          headline2: Zahlungsmethode
+          text2: '${payment_method}'
+          condition: 'is_paid_pricing_tier == true'
+        -
+          image3: 'https://sportalliance.cdn.salesforce-experience.com/cms/delivery/media/MCUIFIF3AL7ZBS3IFSYLIDTASU5U?oid=00D2X000000sWe4UAE&channelId=0ap9W000000008lQAA'
+          headline3: Vertragsbeginn
+          text3: '${start_date_of_subscription} '
+  '6':
+    space: ''
+  '8':
+    button:
+      buttonLabel: 'Zurück zu deiner Magicline'
+      buttonLink: '${tenant_url}'
+  '9':
+    divider: ''
+  '10':
+    space: ''
+  '11':
+    paragraph:
+      headline: 'Hast du noch Fragen?'
+      paragraph: 'Unser Team ist gerne für dich da. Sende uns einfach eine E-Mail an <a href=''mailto:support-de@magicline.com''>support-de@magicline.com</a> oder nutze die Chat-Funktion in deiner Magicline.'
+  '12':
+    paragraph:
+      headline: 'false'
+      paragraph: 'Wir wünschen dir weiterhin viel Erfolg für deinen Studiobetrieb.'
+  '14':
+    space: ''
+  '15':
+    divider: ''
+  '17':
+    footer:
+      hideUnsubscribe: 'true'
+  '18':
+    space: ''

@@ -1,61 +1,61 @@
 en:
-    '0':
-        header:
-            viewOnline: 'false'
-            websiteUri: ''
-    '1':
-        headerImage:
-            headline: ''
-            imageUri: 'https://sportalliance.cdn.salesforce-experience.com/cms/delivery/media/MC3PD374BR7ZFTREW4G6DLYXUBCA?oid=00D2X000000sWe4UAE&channelId=0ap9W000000008lQAA'
-    '2':
-        space: ''
-    '3':
-        paragraph:
-            headline: ''
-            paragraph: ''
-    '4':
-        space: ''
-    '5':
-        package:
-            headline: ''
-            list:
-                -
-                    image1: 'https://sportalliance.cdn.salesforce-experience.com/cms/delivery/media/MCX4PLBYUEWJEXTHXY2VQFLFRN54?oid=00D2X000000sWe4UAE&channelId=0ap9W000000008lQAA'
-                    headline1: ''
-                    text1: '${pricing_tier_name} ${price_per_month} € mtl.'
-                -
-                    image2: 'https://sportalliance.cdn.salesforce-experience.com/cms/delivery/media/MC2WS3XRIGTZD2RGIVVQB3EZS3S4?oid=00D2X000000sWe4UAE&channelId=0ap9W000000008lQAA'
-                    headline2: ''
-                    text2: '${payment_method}'
-                    condition: 'is_paid_pricing_tier == true'
-                -
-                    image3: 'https://sportalliance.cdn.salesforce-experience.com/cms/delivery/media/MCUIFIF3AL7ZBS3IFSYLIDTASU5U?oid=00D2X000000sWe4UAE&channelId=0ap9W000000008lQAA'
-                    headline3: ''
-                    text3: '${start_date_of_subscription} '
-    '6':
-        space: ''
-    '8':
-        button:
-            buttonLabel: ''
-            buttonLink: '${tenant_url}'
-    '9':
-        divider: ''
-    '10':
-        space: ''
-    '11':
-        paragraph:
-            headline: ''
-            paragraph: ''
-    '12':
-        paragraph:
-            headline: 'false'
-            paragraph: ''
-    '14':
-        space: ''
-    '15':
-        divider: ''
-    '17':
-        footer:
-            hideUnsubscribe: 'true'
-    '18':
-        space: ''
+  '0':
+    header:
+      viewOnline: 'false'
+      websiteUri: ''
+  '1':
+    headerImage:
+      headline: ''
+      imageUri: 'https://sportalliance.cdn.salesforce-experience.com/cms/delivery/media/MC3PD374BR7ZFTREW4G6DLYXUBCA?oid=00D2X000000sWe4UAE&channelId=0ap9W000000008lQAA'
+  '2':
+    space: ''
+  '3':
+    paragraph:
+      headline: ''
+      paragraph: ''
+  '4':
+    space: ''
+  '5':
+    package:
+      headline: ''
+      list:
+        -
+          image1: 'https://sportalliance.cdn.salesforce-experience.com/cms/delivery/media/MCX4PLBYUEWJEXTHXY2VQFLFRN54?oid=00D2X000000sWe4UAE&channelId=0ap9W000000008lQAA'
+          headline1: ''
+          text1: '${pricing_tier_name} ${price_per_month} € mtl.'
+        -
+          image2: 'https://sportalliance.cdn.salesforce-experience.com/cms/delivery/media/MC2WS3XRIGTZD2RGIVVQB3EZS3S4?oid=00D2X000000sWe4UAE&channelId=0ap9W000000008lQAA'
+          headline2: ''
+          text2: '${payment_method}'
+          condition: 'is_paid_pricing_tier == true'
+        -
+          image3: 'https://sportalliance.cdn.salesforce-experience.com/cms/delivery/media/MCUIFIF3AL7ZBS3IFSYLIDTASU5U?oid=00D2X000000sWe4UAE&channelId=0ap9W000000008lQAA'
+          headline3: ''
+          text3: '${start_date_of_subscription} '
+  '6':
+    space: ''
+  '8':
+    button:
+      buttonLabel: ''
+      buttonLink: '${tenant_url}'
+  '9':
+    divider: ''
+  '10':
+    space: ''
+  '11':
+    paragraph:
+      headline: ''
+      paragraph: ''
+  '12':
+    paragraph:
+      headline: 'false'
+      paragraph: ''
+  '14':
+    space: ''
+  '15':
+    divider: ''
+  '17':
+    footer:
+      hideUnsubscribe: 'true'
+  '18':
+    space: ''

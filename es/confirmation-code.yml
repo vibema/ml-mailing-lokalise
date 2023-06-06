@@ -1,39 +1,39 @@
 es:
-    -
-        preheader:
-            paragraph: ''
-    -
-        header:
-            viewOnline: ''
-            websiteUri: ''
-    -
-        headerImage:
-            headline: ''
-            imageUri: ''
-    -
-        space: ''
-    -
-        paragraph:
-            headline: ''
-            paragraph: ''
-    -
-        code:
-            code: ''
-    -
-        paragraph:
-            paragraph: ''
-    -
-        paragraph:
-            paragraph: ''
-    -
-        space: ''
-    -
-        divider: ''
-    -
-        paragraph:
-            paragraph: ''
-    -
-        footer:
-            hideUnsubscribe: ''
-    -
-        space: ''
+  -
+    preheader:
+      paragraph: ''
+  -
+    header:
+      viewOnline: ''
+      websiteUri: ''
+  -
+    headerImage:
+      headline: ''
+      imageUri: ''
+  -
+    space: ''
+  -
+    paragraph:
+      headline: ''
+      paragraph: ''
+  -
+    code:
+      code: ''
+  -
+    paragraph:
+      paragraph: ''
+  -
+    paragraph:
+      paragraph: ''
+  -
+    space: ''
+  -
+    divider: ''
+  -
+    paragraph:
+      paragraph: ''
+  -
+    footer:
+      hideUnsubscribe: ''
+  -
+    space: ''

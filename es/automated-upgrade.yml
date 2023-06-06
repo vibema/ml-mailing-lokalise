@@ -1,54 +1,54 @@
 es:
-    '4':
-        paragraph:
-            headline: ''
-            paragraph: ''
-    '5':
-        space: ''
-    '6':
-        package:
-            headline: ''
-            list:
-                -
-                    image1: ''
-                    headline1: ''
-                    text1: ''
-                -
-                    image2: ''
-                    headline2: ''
-                    text2: ''
-                    condition: ''
-                -
-                    image3: ''
-                    headline3: ''
-                    text3: ''
-    '7':
-        space: ''
-    '8':
-        paragraph:
-            headline: ''
-            paragraph: ''
-            condition: ''
-    '9':
-        paragraph:
-            headline: ''
-            paragraph: ''
-            condition: ''
-    '10':
-        button:
-            buttonLabel: ''
-            buttonLink: ''
-    '11':
-        divider: ''
-    '12':
-        space-smaller: ''
-    '13':
-        paragraph:
-            condition: ''
-    '14':
-        paragraph:
-            headline: ''
-            condition: ''
-            paragraph: ''
-    '17':
-        space-smaller: ''
+  '4':
+    paragraph:
+      headline: ''
+      paragraph: ''
+  '5':
+    space: ''
+  '6':
+    package:
+      headline: ''
+      list:
+        -
+          image1: ''
+          headline1: ''
+          text1: ''
+        -
+          image2: ''
+          headline2: ''
+          text2: ''
+          condition: ''
+        -
+          image3: ''
+          headline3: ''
+          text3: ''
+  '7':
+    space: ''
+  '8':
+    paragraph:
+      headline: ''
+      paragraph: ''
+      condition: ''
+  '9':
+    paragraph:
+      headline: ''
+      paragraph: ''
+      condition: ''
+  '10':
+    button:
+      buttonLabel: ''
+      buttonLink: ''
+  '11':
+    divider: ''
+  '12':
+    space-smaller: ''
+  '13':
+    paragraph:
+      condition: ''
+  '14':
+    paragraph:
+      headline: ''
+      condition: ''
+      paragraph: ''
+  '17':
+    space-smaller: ''

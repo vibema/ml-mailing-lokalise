@@ -1,64 +1,64 @@
 fr:
-    '4':
-        paragraph:
-            condition: ''
-    '5':
-        paragraph:
-            condition: ''
-    '7':
-        package:
-            headline: ''
-            list:
-                -
-                    image1: ''
-                    headline1: ''
-                    text1: ''
-                -
-                    image2: ''
-                    headline2: ''
-                    text2: ''
-                    condition: ''
-                -
-                    image3: ''
-                    headline3: ''
-                    text3: ''
-    '9':
-        space: ''
-    '10':
-        paragraph:
-            headline: ''
-    '12':
-        button:
-            buttonLabel: ''
-            buttonLink: ''
-    '13':
-        space:
-            condition: ''
-    '14':
-        divider:
-            condition: ''
-    '15':
-        space:
-            condition: ''
-    '16':
-        paragraph:
-            condition: ''
-    '17':
-        paragraph:
-            condition: ''
-    '18':
-        paragraph:
-            headline: ''
-            paragraph: ''
-    '20':
-        space: ''
-    '21':
-        divider: ''
-    '22':
-        paragraph:
-            paragraph: ''
-    '23':
-        footer:
-            hideUnsubscribe: ''
-    '24':
-        space: ''
+  '4':
+    paragraph:
+      condition: ''
+  '5':
+    paragraph:
+      condition: ''
+  '7':
+    package:
+      headline: ''
+      list:
+        -
+          image1: ''
+          headline1: ''
+          text1: ''
+        -
+          image2: ''
+          headline2: ''
+          text2: ''
+          condition: ''
+        -
+          image3: ''
+          headline3: ''
+          text3: ''
+  '9':
+    space: ''
+  '10':
+    paragraph:
+      headline: ''
+  '12':
+    button:
+      buttonLabel: ''
+      buttonLink: ''
+  '13':
+    space:
+      condition: ''
+  '14':
+    divider:
+      condition: ''
+  '15':
+    space:
+      condition: ''
+  '16':
+    paragraph:
+      condition: ''
+  '17':
+    paragraph:
+      condition: ''
+  '18':
+    paragraph:
+      headline: ''
+      paragraph: ''
+  '20':
+    space: ''
+  '21':
+    divider: ''
+  '22':
+    paragraph:
+      paragraph: ''
+  '23':
+    footer:
+      hideUnsubscribe: ''
+  '24':
+    space: ''

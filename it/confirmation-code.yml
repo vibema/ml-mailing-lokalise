@@ -1,39 +1,78 @@
 it:
-  -
+  '5':
+    code:
+      code: ''
+  '6':
+    paragraph:
+      paragraph: ''
+  '8':
+    space: ''
+  '10':
+    paragraph:
+      paragraph: ''
+  '11':
+    footer:
+      hideUnsubscribe: ''
+  '0':
     preheader:
       paragraph: ''
-  -
+  '1':
     header:
       viewOnline: ''
       websiteUri: ''
-  -
+  '2':
     headerImage:
       headline: ''
       imageUri: ''
-  -
+  '3':
     space: ''
-  -
+  '4':
     paragraph:
       headline: ''
       paragraph: ''
-  -
-    code:
-      code: ''
-  -
+  '7':
     paragraph:
       paragraph: ''
-  -
-    paragraph:
-      paragraph: ''
-  -
-    space: ''
-  -
+  '9':
     divider: ''
-  -
-    paragraph:
-      paragraph: ''
-  -
-    footer:
-      hideUnsubscribe: ''
-  -
+  '12':
     space: ''
+  confirmation-code:
+    -
+      preheader:
+        paragraph: ''
+    -
+      header:
+        viewOnline: ''
+        websiteUri: ''
+    -
+      headerImage:
+        headline: ''
+        imageUri: ''
+    -
+      space: ''
+    -
+      paragraph:
+        headline: ''
+        paragraph: ''
+    -
+      code:
+        code: ''
+    -
+      paragraph:
+        paragraph: ''
+    -
+      paragraph:
+        paragraph: ''
+    -
+      space: ''
+    -
+      divider: ''
+    -
+      paragraph:
+        paragraph: ''
+    -
+      footer:
+        hideUnsubscribe: ''
+    -
+      space: ''

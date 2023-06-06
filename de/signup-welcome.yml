@@ -1,4 +1,82 @@
 de:
+  '0':
+    preheader:
+      paragraph: 'Jetzt 30 Tage kostenlos ausprobieren.'
+  '1':
+    header:
+      viewOnline: 'false'
+      websiteUri: 'https://magicline.com/de/'
+  '2':
+    headerImage:
+      headline: 'Deine kostenlose Magicline Demo'
+      subline: 'Jetzt 30 Tage lang testen'
+      imageUri: 'https://sportalliance.cdn.salesforce-experience.com/cms/delivery/media/MC3PD374BR7ZFTREW4G6DLYXUBCA?oid=00D2X000000sWe4UAE&channelId=0ap9W000000008lQAA'
+  '3':
+    space: ''
+  '4':
+    space-smaller: ''
+  '5':
+    paragraph:
+      headline: 'Lieber Magicliner,'
+      paragraph: 'wie schön, dass du da bist und die Magicline als Demo kennenlernen möchtest. Dein Testaccount steht dir ab sofort <b>für die nächsten 30 Tage kostenlos</b> zur Verfügung. So bekommst du am besten ein Gefühl für unsere Software.'
+  '6':
+    space-smaller: ''
+  '7':
+    paragraph:
+      headline: 'false'
+      paragraph: 'Du willst den persönlichen Einblick? Buch dir jetzt deine kostenlose Beratung und erfahre, wie dir die Magicline zu mehr Umsatz und Wachstum verhilft.'
+  '8':
+    space-smaller: ''
+  '9':
+    button:
+      buttonLabel: 'Kostenlosen Termin buchen'
+      buttonLink: 'https://demodesk.com/book/sport-alliance-team/magicline/?utm_source=magicline&utm_medium=mailing&utm_campaign=demo_sign_up'
+  '10':
+    tenant:
+      headline: 'Deine Zugangsdaten'
+      list:
+        -
+          image1: 'https://sportalliance.cdn.salesforce-experience.com/cms/delivery/media/MCN773B7PYKFAU3E2PJ3ZA3W5RZI?oid=00D2X000000sWe4UAE&channelId=0ap9W000000008lQAA'
+          text1: '${tenant_url}/?campaign_source=demo_sign_up'
+          link: '1'
+        -
+          image2: 'https://sportalliance.cdn.salesforce-experience.com/cms/delivery/media/MCPL3WDWYZ6VC37BYVZ6PQOCVFYY?oid=00D2X000000sWe4UAE&channelId=0ap9W000000008lQAA'
+          text2: '${recipient_email}'
+          link: '0'
+      paragraph: '<b>Gut zu wissen:</b> Alle von dir eingegebenen Daten werden nur zu Demo-Zwecken gespeichert und nach 30 Tagen gelöscht. Ein Wechsel auf das <a href=''${tenant_url}/?checkout_campaign=true&checkout_campaign_source=demo_sign_up''>kostenfreie Free Paket</a> ist jederzeit möglich.'
+  '11':
+    space-smaller: ''
+  '12':
+    space: ''
+  '13':
+    paragraph:
+      headline: 'Dein persönlicher Infotermin'
+      paragraph: 'Unser Team ist gerne für dich da und zeigt dir in einem kurzen Termin, welche Möglichkeiten dir Magicline bietet.'
+  '14':
+    button:
+      buttonLabel: 'Kostenlosen Termin buchen'
+      buttonLink: 'https://demodesk.com/book/sport-alliance-team/magicline/?utm_source=magicline&utm_medium=mailing&utm_campaign=demo_sign_up'
+  '15':
+    paragraph:
+      headline: 'false'
+      paragraph: 'Wir wünschen dir nun viel Spaß mit deinem Demo-Account.'
+  '16':
+    paragraph:
+      headline: 'false'
+      paragraph: 'Viele Grüße <br/> <strong>Dein Magicline Team</strong>'
+  '17':
+    space: ''
+  '18':
+    divider: ''
+  '19':
+    paragraph:
+      headline: 'false'
+      paragraph: '<small style=''display: block; font-size: clamp(8px, 90%, 3vw); line-height: 120%;''>Es gelten die jeweils aktuellen <a href=''${gtc_url}'' target=''_blank'' style=''text-decoration: underline;''>AGB</a> zur Softwarenutzung, die <a target=''_blank'' href=''${privacy_url}'' style=''text-decoration: underline;''>Datenschutzvereinbarung</a> sowie die <a href=''${dpa_url}'' target=''_blank'' style=''text-decoration: underline;''>Vereinbarung zur Auftragsverarbeitung (AVV)</a>.</small>'
+  '20':
+    footer:
+      hideUnsubscribe: 'true'
+  '21':
+    space: ''
   signup-welcome:
     -
       preheader:

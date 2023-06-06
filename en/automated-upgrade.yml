@@ -52,3 +52,90 @@ en:
       paragraph: ''
   '17':
     space-smaller: ''
+  automated-upgrade:
+    -
+      preheader:
+        paragraph: ''
+    -
+      header:
+        viewOnline: ''
+        websiteUri: ''
+    -
+      headerImage:
+        headline: ''
+        imageUri: ''
+    -
+      space: ''
+    -
+      paragraph:
+        headline: ''
+        paragraph: ''
+    -
+      space: ''
+    -
+      package:
+        headline: ''
+        list:
+          -
+            image1: ''
+            headline1: ''
+            text1: ''
+          -
+            image2: ''
+            headline2: ''
+            text2: ''
+            condition: ''
+          -
+            image3: ''
+            headline3: ''
+            text3: ''
+    -
+      space: ''
+    -
+      paragraph:
+        headline: ''
+        paragraph: ''
+        condition: ''
+    -
+      paragraph:
+        headline: ''
+        paragraph: ''
+        condition: ''
+    -
+      button:
+        buttonLabel: ''
+        buttonLink: ''
+    -
+      divider: ''
+    -
+      space-smaller: ''
+    -
+      paragraph:
+        headline: ''
+        paragraph: ''
+        condition: ''
+    -
+      paragraph:
+        headline: ''
+        condition: ''
+        paragraph: ''
+    -
+      paragraph:
+        headline: ''
+        paragraph: ''
+    -
+      paragraph:
+        headline: ''
+        paragraph: ''
+    -
+      space-smaller: ''
+    -
+      divider: ''
+    -
+      paragraph:
+        paragraph: ''
+    -
+      footer:
+        hideUnsubscribe: ''
+    -
+      space: ''

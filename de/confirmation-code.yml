@@ -1,7 +1,7 @@
 de:
     -
         preheader:
-            paragraph: 'Bestätige jetzt deine E-Mail-Adresse, um deine Bestellung abzuschließen.'
+            paragraph: 'Bestätige jetzt deine E-Mail-Adresse, um deine Bestellung abzuschließen. Test'
     -
         header:
             viewOnline: 'false'

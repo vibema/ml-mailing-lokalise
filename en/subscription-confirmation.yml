@@ -1,64 +1,64 @@
 en:
-    '4':
-        paragraph:
-            condition: 'is_paid_pricing_tier == false'
-    '5':
-        paragraph:
-            condition: 'is_paid_pricing_tier == true'
-    '7':
-        package:
-            headline: 'Dein Magicline Vertrag im Überblick'
-            list:
-                -
-                    image1: 'https://sportalliance.cdn.salesforce-experience.com/cms/delivery/media/MCX4PLBYUEWJEXTHXY2VQFLFRN54?oid=00D2X000000sWe4UAE&channelId=0ap9W000000008lQAA'
-                    headline1: 'Dein Tarif'
-                    text1: '${pricing_tier_name} für ${price_per_month} € mtl.'
-                -
-                    image2: 'https://sportalliance.cdn.salesforce-experience.com/cms/delivery/media/MC2WS3XRIGTZD2RGIVVQB3EZS3S4?oid=00D2X000000sWe4UAE&channelId=0ap9W000000008lQAA'
-                    headline2: Zahlungsmethode
-                    text2: '${payment_method}'
-                    condition: 'is_paid_pricing_tier == true'
-                -
-                    image3: 'https://sportalliance.cdn.salesforce-experience.com/cms/delivery/media/MCUIFIF3AL7ZBS3IFSYLIDTASU5U?oid=00D2X000000sWe4UAE&channelId=0ap9W000000008lQAA'
-                    headline3: Vertragsbeginn
-                    text3: '${start_date_of_subscription} '
-    '9':
-        space: ''
-    '10':
-        paragraph:
-            headline: 'Jetzt geht''s ans Einrichten'
-    '12':
-        button:
-            buttonLabel: 'Zurück zu deiner Magicline'
-            buttonLink: '${tenant_url}/?campaign_source=demo_welcome'
-    '13':
-        space:
-            condition: 'pricing_tier_name == ''Free'''
-    '14':
-        divider:
-            condition: 'is_paid_pricing_tier == true'
-    '15':
-        space:
-            condition: 'is_paid_pricing_tier == true'
-    '16':
-        paragraph:
-            condition: 'pricing_tier_name == ''Basic'''
-    '17':
-        paragraph:
-            condition: 'pricing_tier_name == ''Advanced'' || pricing_tier_name == ''Pro'' || pricing_tier_name == ''Ultimate'''
-    '18':
-        paragraph:
-            headline: 'false'
-            paragraph: 'Wir danken dir für dein Vertrauen und wünschen dir viel Erfolg für deinen Studiobetrieb.'
-    '20':
-        space: ''
-    '21':
-        divider: ''
-    '22':
-        paragraph:
-            paragraph: '<small style=''display: block; font-size: clamp(8px, 90%, 3vw); line-height: 120%;''>Es gelten die jeweils aktuellen <a href=''${gtc_url}'' target=''_blank'' style=''text-decoration: underline;''>AGB</a> zur Softwarenutzung, die <a target=''_blank'' href=''${privacy_url}'' style=''text-decoration: underline;''>Datenschutzvereinbarung</a> sowie die <a href=''${dpa_url}'' target=''_blank'' style=''text-decoration: underline;''>Vereinbarung zur Auftragsverarbeitung (AVV)</a>.</small>'
-    '23':
-        footer:
-            hideUnsubscribe: 'true'
-    '24':
-        space: ''
+  '4':
+    paragraph:
+      condition: 'is_paid_pricing_tier == false'
+  '5':
+    paragraph:
+      condition: 'is_paid_pricing_tier == true'
+  '7':
+    package:
+      headline: 'Dein Magicline Vertrag im Überblick'
+      list:
+        -
+          image1: 'https://sportalliance.cdn.salesforce-experience.com/cms/delivery/media/MCX4PLBYUEWJEXTHXY2VQFLFRN54?oid=00D2X000000sWe4UAE&channelId=0ap9W000000008lQAA'
+          headline1: 'Dein Tarif'
+          text1: '${pricing_tier_name} für ${price_per_month} € mtl.'
+        -
+          image2: 'https://sportalliance.cdn.salesforce-experience.com/cms/delivery/media/MC2WS3XRIGTZD2RGIVVQB3EZS3S4?oid=00D2X000000sWe4UAE&channelId=0ap9W000000008lQAA'
+          headline2: Zahlungsmethode
+          text2: '${payment_method}'
+          condition: 'is_paid_pricing_tier == true'
+        -
+          image3: 'https://sportalliance.cdn.salesforce-experience.com/cms/delivery/media/MCUIFIF3AL7ZBS3IFSYLIDTASU5U?oid=00D2X000000sWe4UAE&channelId=0ap9W000000008lQAA'
+          headline3: Vertragsbeginn
+          text3: '${start_date_of_subscription} '
+  '9':
+    space: ''
+  '10':
+    paragraph:
+      headline: 'Jetzt geht''s ans Einrichten'
+  '12':
+    button:
+      buttonLabel: 'Zurück zu deiner Magicline'
+      buttonLink: '${tenant_url}/?campaign_source=demo_welcome'
+  '13':
+    space:
+      condition: 'pricing_tier_name == ''Free'''
+  '14':
+    divider:
+      condition: 'is_paid_pricing_tier == true'
+  '15':
+    space:
+      condition: 'is_paid_pricing_tier == true'
+  '16':
+    paragraph:
+      condition: 'pricing_tier_name == ''Basic'''
+  '17':
+    paragraph:
+      condition: 'pricing_tier_name == ''Advanced'' || pricing_tier_name == ''Pro'' || pricing_tier_name == ''Ultimate'''
+  '18':
+    paragraph:
+      headline: 'false'
+      paragraph: 'Wir danken dir für dein Vertrauen und wünschen dir viel Erfolg für deinen Studiobetrieb.'
+  '20':
+    space: ''
+  '21':
+    divider: ''
+  '22':
+    paragraph:
+      paragraph: '<small style=''display: block; font-size: clamp(8px, 90%, 3vw); line-height: 120%;''>Es gelten die jeweils aktuellen <a href=''${gtc_url}'' target=''_blank'' style=''text-decoration: underline;''>AGB</a> zur Softwarenutzung, die <a target=''_blank'' href=''${privacy_url}'' style=''text-decoration: underline;''>Datenschutzvereinbarung</a> sowie die <a href=''${dpa_url}'' target=''_blank'' style=''text-decoration: underline;''>Vereinbarung zur Auftragsverarbeitung (AVV)</a>.</small>'
+  '23':
+    footer:
+      hideUnsubscribe: 'true'
+  '24':
+    space: ''

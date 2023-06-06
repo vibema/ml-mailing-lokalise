@@ -1,90 +1,90 @@
 de:
   upgrade-confirmation:
     -
-    preheader:
-            paragraph: "Dein neuer Magicline Vertrag ist jetzt aktiv."
+      preheader:
+        paragraph: "Dein neuer Magicline Vertrag ist jetzt aktiv."
     -
-        header:
-            viewOnline: "false"
-            websiteUri: "https://magicline.com/de/"
+      header:
+        viewOnline: "false"
+        websiteUri: "https://magicline.com/de/"
     -
-        headerImage:
-            headline: "Herzlich Willkommen in deinem neuen Preispaket"
-            imageUri: "https://sportalliance.cdn.salesforce-experience.com/cms/delivery/media/MC3PD374BR7ZFTREW4G6DLYXUBCA?oid=00D2X000000sWe4UAE&channelId=0ap9W000000008lQAA"
+      headerImage:
+        headline: "Herzlich Willkommen in deinem neuen Preispaket"
+        imageUri: "https://sportalliance.cdn.salesforce-experience.com/cms/delivery/media/MC3PD374BR7ZFTREW4G6DLYXUBCA?oid=00D2X000000sWe4UAE&channelId=0ap9W000000008lQAA"
     -
-        space:
+      space:
     -
-        paragraph:
-            headline: "Hallo ${recipient_firstname},"
-            paragraph: "vielen Dank, dass du dich für ein neues Preispaket entschieden hast. Wir wissen dein Vertrauen in unsere Software sehr zu schätzen und haben deine Magicline soeben erfolgreich umgestellt."
+      paragraph:
+        headline: "Hallo ${recipient_firstname},"
+        paragraph: "vielen Dank, dass du dich für ein neues Preispaket entschieden hast. Wir wissen dein Vertrauen in unsere Software sehr zu schätzen und haben deine Magicline soeben erfolgreich umgestellt."
     -
-        space:
+      space:
     -
-        package:
-            headline: "Dein neuer Magicline Vertrag im Überblick"
-            list:
-              -
-                    image1: https://sportalliance.cdn.salesforce-experience.com/cms/delivery/media/MCX4PLBYUEWJEXTHXY2VQFLFRN54?oid=00D2X000000sWe4UAE&channelId=0ap9W000000008lQAA
-                    headline1: Dein Tarif
-                    text1: "${pricing_tier_name} ${price_per_month} € mtl."
-              -
-                    image2: https://sportalliance.cdn.salesforce-experience.com/cms/delivery/media/MC2WS3XRIGTZD2RGIVVQB3EZS3S4?oid=00D2X000000sWe4UAE&channelId=0ap9W000000008lQAA
-                    headline2: Zahlungsmethode
-                    text2: "${payment_method}"
-                    condition: "is_paid_pricing_tier == true"
-              -
-                    image3: https://sportalliance.cdn.salesforce-experience.com/cms/delivery/media/MCUIFIF3AL7ZBS3IFSYLIDTASU5U?oid=00D2X000000sWe4UAE&channelId=0ap9W000000008lQAA
-                    headline3: Vertragsbeginn
-                    text3: "${start_date_of_subscription} "
+      package:
+        headline: "Dein neuer Magicline Vertrag im Überblick"
+        list:
+          -
+            image1: https://sportalliance.cdn.salesforce-experience.com/cms/delivery/media/MCX4PLBYUEWJEXTHXY2VQFLFRN54?oid=00D2X000000sWe4UAE&channelId=0ap9W000000008lQAA
+            headline1: Dein Tarif
+            text1: "${pricing_tier_name} ${price_per_month} € mtl."
+          -
+            image2: https://sportalliance.cdn.salesforce-experience.com/cms/delivery/media/MC2WS3XRIGTZD2RGIVVQB3EZS3S4?oid=00D2X000000sWe4UAE&channelId=0ap9W000000008lQAA
+            headline2: Zahlungsmethode
+            text2: "${payment_method}"
+            condition: "is_paid_pricing_tier == true"
+          -
+            image3: https://sportalliance.cdn.salesforce-experience.com/cms/delivery/media/MCUIFIF3AL7ZBS3IFSYLIDTASU5U?oid=00D2X000000sWe4UAE&channelId=0ap9W000000008lQAA
+            headline3: Vertragsbeginn
+            text3: "${start_date_of_subscription} "
     -
-        space:
+      space:
     -
-        paragraph:
-            headline: 'false'
-            paragraph: "Starte jetzt direkt mit deinem neuen <a href=''>Preispaket ${pricing_tier_name}</a> durch. Im <a href='https://support.magicline.com/hc/de?utm_source=magicline&utm_medium=mailing&utm_campaign=self_upgrade'>Help Center</a> findest du zudem viele nützliche Hilfestellungen zur Nutzung deiner Magicline."
-            condition: pricing_tier_name == "Basic"
+      paragraph:
+        headline: 'false'
+        paragraph: "Starte jetzt direkt mit deinem neuen <a href=''>Preispaket ${pricing_tier_name}</a> durch. Im <a href='https://support.magicline.com/hc/de?utm_source=magicline&utm_medium=mailing&utm_campaign=self_upgrade'>Help Center</a> findest du zudem viele nützliche Hilfestellungen zur Nutzung deiner Magicline."
+        condition: pricing_tier_name == "Basic"
     -
-        paragraph:
-            headline: 'false'
-            paragraph: "Entdecke jetzt viele neue Möglichkeiten mit <a href='https://www.magicline.com/de/preise/?utm_source=magicline&utm_medium=mailing&utm_campaign=self_upgrade'>Preispaket ${pricing_tier_name}</a> und starte direkt durch. Im <a href='https://support.magicline.com/hc/de?utm_source=magicline&utm_medium=mailing&utm_campaign=self_upgrade'>Help Center</a> findest du zudem viele nützliche Hilfestellungen zur Nutzung deiner Magicline."
-            condition: "pricing_tier_name == 'Advanced' || pricing_tier_name == 'Pro' || pricing_tier_name == 'Ultimate'"
+      paragraph:
+        headline: 'false'
+        paragraph: "Entdecke jetzt viele neue Möglichkeiten mit <a href='https://www.magicline.com/de/preise/?utm_source=magicline&utm_medium=mailing&utm_campaign=self_upgrade'>Preispaket ${pricing_tier_name}</a> und starte direkt durch. Im <a href='https://support.magicline.com/hc/de?utm_source=magicline&utm_medium=mailing&utm_campaign=self_upgrade'>Help Center</a> findest du zudem viele nützliche Hilfestellungen zur Nutzung deiner Magicline."
+        condition: "pricing_tier_name == 'Advanced' || pricing_tier_name == 'Pro' || pricing_tier_name == 'Ultimate'"
     -
-        button:
-            buttonLabel: Zurück zu deiner Magicline
-            buttonLink: "${tenant_url}/?campaign_source=self_upgrade"
+      button:
+        buttonLabel: Zurück zu deiner Magicline
+        buttonLink: "${tenant_url}/?campaign_source=self_upgrade"
     -
-        space-smaller:
+      space-smaller:
     -
-        divider:
+      divider:
     -
-        space:
+      space:
     -
-        paragraph:
-            headline: Hast du noch Fragen?
-            paragraph: "Unser Team ist gerne für dich da. Sende uns einfach eine E-Mail an <a href='mailto:support-de@magicline.com'>support-de@magicline.com</a> oder nutze die Chat-Funktion in deiner Magicline."
-            condition: pricing_tier_name == "Basic"
+      paragraph:
+        headline: Hast du noch Fragen?
+        paragraph: "Unser Team ist gerne für dich da. Sende uns einfach eine E-Mail an <a href='mailto:support-de@magicline.com'>support-de@magicline.com</a> oder nutze die Chat-Funktion in deiner Magicline."
+        condition: pricing_tier_name == "Basic"
     -
-        paragraph:
-            headline: Hast du noch Fragen?
-            paragraph: "Bei Fragen zu deinem Vertrag, kontaktiere uns gerne von Montag bis Freitag zwischen 8:00 und 18:00 Uhr telefonisch unter <a href='tel:+49404293240,'>+49 40 429 324 0</a>, per Chat oder sende uns eine E-Mail an <a href='mailto:support-de@magicline.com'>support-de@magicline.com</a>."
-            condition: "pricing_tier_name == 'Advanced' || pricing_tier_name == 'Pro' || pricing_tier_name == 'Ultimate'"
+      paragraph:
+        headline: Hast du noch Fragen?
+        paragraph: "Bei Fragen zu deinem Vertrag, kontaktiere uns gerne von Montag bis Freitag zwischen 8:00 und 18:00 Uhr telefonisch unter <a href='tel:+49404293240,'>+49 40 429 324 0</a>, per Chat oder sende uns eine E-Mail an <a href='mailto:support-de@magicline.com'>support-de@magicline.com</a>."
+        condition: "pricing_tier_name == 'Advanced' || pricing_tier_name == 'Pro' || pricing_tier_name == 'Ultimate'"
     -
-        paragraph:
-            headline: 'false'
-            paragraph: "Wir wünschen dir weiterhin viel Erfolg für deinen Studiobetrieb."
+      paragraph:
+        headline: 'false'
+        paragraph: "Wir wünschen dir weiterhin viel Erfolg für deinen Studiobetrieb."
     -
-        paragraph:
-            headline: 'false'
-            paragraph: "Viele Grüße <br/> <strong>Dein Magicline Team</strong>"
+      paragraph:
+        headline: 'false'
+        paragraph: "Viele Grüße <br/> <strong>Dein Magicline Team</strong>"
     -
-        space-smaller:
+      space-smaller:
     -
-        divider:
+      divider:
     -
-        paragraph:
-            paragraph: "<small style='display: block; font-size: clamp(8px, 90%, 3vw); line-height: 120%;'>Es gelten die jeweils aktuellen <a href='${gtc_url}' target='_blank' style='text-decoration: underline;'>AGB</a> zur Softwarenutzung, die <a target='_blank' href='${privacy_url}' style='text-decoration: underline;'>Datenschutzvereinbarung</a> sowie die <a href='${dpa_url}' target='_blank' style='text-decoration: underline;'>Vereinbarung zur Auftragsverarbeitung (AVV)</a>.</small>"
+      paragraph:
+        paragraph: "<small style='display: block; font-size: clamp(8px, 90%, 3vw); line-height: 120%;'>Es gelten die jeweils aktuellen <a href='${gtc_url}' target='_blank' style='text-decoration: underline;'>AGB</a> zur Softwarenutzung, die <a target='_blank' href='${privacy_url}' style='text-decoration: underline;'>Datenschutzvereinbarung</a> sowie die <a href='${dpa_url}' target='_blank' style='text-decoration: underline;'>Vereinbarung zur Auftragsverarbeitung (AVV)</a>.</small>"
     -
-        footer:
-            hideUnsubscribe: "true"
+      footer:
+        hideUnsubscribe: "true"
     -
-        space:
+      space:

@@ -35,4 +35,5 @@ de:
     -
         footer:
             hideUnsubscribe: 'true'
-    -     space: ''
+    -
+        space: ''

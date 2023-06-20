@@ -2,45 +2,45 @@ en:
   subscription-confirmation:
     -
       preheader:
-        paragraph: ''
+        paragraph: 'Your Magicline contract is now active and ready for setup.'
     -
       header:
         viewOnline: 'false'
-        websiteUri: ''
+        websiteUri: 'https://www.magicline.com/en/'
     -
       headerImage:
-        headline: ''
+        headline: 'Get started with your Magicline'
         imageUri: 'https://sportalliance.cdn.salesforce-experience.com/cms/delivery/media/MC3PD374BR7ZFTREW4G6DLYXUBCA?oid=00D2X000000sWe4UAE&channelId=0ap9W000000008lQAA'
     -
       space: ''
     -
       paragraph:
-        headline: ''
-        paragraph: ''
+        headline: 'Hello ${recipient_firstname},'
+        paragraph: 'We are happy that you are here! With Magicline, you have made the right choice for your studio. From now on, you can use all basic functions, such as simple membership management or lead management, for free.'
         condition: 'is_paid_pricing_tier == false'
     -
       paragraph:
-        headline: ''
-        paragraph: ''
+        headline: 'Hello ${recipient_firstname},'
+        paragraph: 'We are happy that you are here! With Magicline, you have made the right choice for your studio. From now on you are able to use all features from the <a href=''https://www.magicline.com/de/preise/?utm_source=magicline&utm_medium=mailing&utm_campaign=demo_welcome''>pricing tier ${pricing_tier_name}</a>.'
         condition: 'is_paid_pricing_tier == true'
     -
       space: ''
     -
       package:
-        headline: ''
+        headline: 'Your Magicline contract at a glance'
         list:
           -
             image1: 'https://sportalliance.cdn.salesforce-experience.com/cms/delivery/media/MCX4PLBYUEWJEXTHXY2VQFLFRN54?oid=00D2X000000sWe4UAE&channelId=0ap9W000000008lQAA'
-            headline1: ''
-            text1: ''
+            headline1: 'Your rate'
+            text1: '${pricing_tier_name} for ${price_per_month} € per month'
           -
             image2: 'https://sportalliance.cdn.salesforce-experience.com/cms/delivery/media/MC2WS3XRIGTZD2RGIVVQB3EZS3S4?oid=00D2X000000sWe4UAE&channelId=0ap9W000000008lQAA'
-            headline2: ''
+            headline2: 'Payment method'
             text2: '${payment_method}'
             condition: 'is_paid_pricing_tier == true'
           -
             image3: 'https://sportalliance.cdn.salesforce-experience.com/cms/delivery/media/MCUIFIF3AL7ZBS3IFSYLIDTASU5U?oid=00D2X000000sWe4UAE&channelId=0ap9W000000008lQAA'
-            headline3: ''
+            headline3: 'Start of contract'
             text3: '${start_date_of_subscription} '
     -
       space-smaller: ''
@@ -48,13 +48,13 @@ en:
       space: ''
     -
       paragraph:
-        headline: ''
-        paragraph: ''
+        headline: 'Now it''s time for setup'
+        paragraph: 'Log in directly and let our wizard guide you step by step through the first important settings. You can also find lots of useful help for starting your Magicline in the <a href="https://support.magicline.com/hc/de/categories/4403026093969-Dein-Start-mit-der-Magicline?utm_source=magicline&utm_medium=mailing&utm_campaign=demo_welcome" target="_blank">Help Center</a>.'
     -
       space-smaller: ''
     -
       button:
-        buttonLabel: ''
+        buttonLabel: 'Back to your Magicline'
         buttonLink: '${tenant_url}/?campaign_source=demo_welcome'
     -
       space:
@@ -68,28 +68,28 @@ en:
     -
       paragraph:
         condition: 'pricing_tier_name == ''Basic'''
-        headline: ''
-        paragraph: ''
+        headline: 'Always there for you'
+        paragraph: 'If you have any questions about your contract, just email us at <a href=''mailto:support-de@magicline.com''>support-de@magicline.com</a> or use the chat function in your Magicline.'
     -
       paragraph:
         condition: 'pricing_tier_name == ''Advanced'' || pricing_tier_name == ''Pro'' || pricing_tier_name == ''Ultimate'''
-        headline: ''
-        paragraph: ''
+        headline: 'Always there for you'
+        paragraph: 'If you have any questions regarding your contract, feel free to contact us by phone at <a href=''tel:+49404293240,''>+49 40 429 324 0</a>, by chat or email us at <a href=''mailto:support-de@magicline.com''>support-de@magicline.com</a> from Monday to Friday between 8:00 am and 6:00 pm.'
     -
       paragraph:
         headline: 'false'
-        paragraph: ''
+        paragraph: 'We thank you for your trust and wish you a lot of success for your studio business.'
     -
       paragraph:
         headline: 'false'
-        paragraph: ''
+        paragraph: 'Best, <br/> <strong>Your Magicline Team</strong>'
     -
       space: ''
     -
       divider: ''
     -
       paragraph:
-        paragraph: ''
+        paragraph: '<small style=''display: block; font-size: clamp(8px, 90%, 3vw); line-height: 120%;''>The respective current <a href=''${gtc_url}'' target=''_blank'' style=''text-decoration: underline;''>GTC</a> for software use, the <a target=''_blank'' href=''${privacy_url}'' style=''text-decoration: underline;''>Data Protection Agreement</a> and the <a href=''${dpa_url}'' target=''_blank'' style=''text-decoration: underline;''>Contract Processing Agreement </a> shall apply.</small>'
     -
       footer:
         hideUnsubscribe: 'true'

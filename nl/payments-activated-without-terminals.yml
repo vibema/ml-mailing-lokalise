@@ -1,0 +1,65 @@
+nl:
+  payments-activated-without-terminals:
+    -
+      preheader:
+        paragraph: ''
+    -
+      header:
+        viewOnline: ''
+        websiteUri: ''
+    -
+      space: ''
+    -
+      headerImageContain:
+        headline: ''
+        imageUri: ''
+    -
+      space: ''
+    -
+      paragraph:
+        headline: ''
+        paragraph: ''
+    -
+      space: ''
+    -
+      paragraphHighlight:
+        headline: ''
+        paragraph: ''
+        buttonLink: ''
+        buttonLabel: ''
+    -
+      listArrow:
+        headline: ''
+        paragraph: ''
+        bullet1: ''
+        bullet2: ''
+        bullet3: ''
+        bullet4: ''
+        bullet5: ''
+        bullet6: ''
+        bullet7: ''
+        bullet8: ''
+        bullet9: ''
+        bullet10: ''
+    -
+      divider: ''
+    -
+      space-smaller: ''
+    -
+      paragraph:
+        paragraph: ''
+    -
+      paragraph:
+        paragraph: ''
+    -
+      paragraphBold:
+        paragraph: ''
+    -
+      space: ''
+    -
+      divider: ''
+    -
+      footer:
+        hideUnsubscribe: ''
+    -
+      space: ''

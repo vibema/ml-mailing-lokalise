@@ -38,7 +38,7 @@ de:
     -
       paragraph:
         headline: 'false'
-        paragraph: 'Starte jetzt direkt mit deinem neuen <a href=''>Preispaket ${pricing_tier_name}</a> durch. Im <a href=''>Help Center</a> findest du zudem viele nützliche Hilfestellungen zur Nutzung deiner Magicline.'
+        paragraph: 'Starte jetzt direkt mit deinem neuen <a href=''https://www.magicline.com/de/preise/?utm_source=magicline&utm_medium=mailing&utm_campaign=automated_upgrade''>Preispaket ${pricing_tier_name}</a> durch. Im <a href=''https://support.magicline.com/hc/de?utm_source=magicline&utm_medium=mailing&utm_campaign=automated_upgrade''>Help Center</a> findest du zudem viele nützliche Hilfestellungen zur Nutzung deiner Magicline.'
     -
       button:
         buttonLabel: 'Zurück zu deiner Magicline'

@@ -5,16 +5,16 @@ en:
         paragraph: 'Your Magicline Payments registration for {{studio_name}} - {{legal_entity_name}} has been completed'
     -
       header:
-        viewOnline: "false"
-        websiteUri: "https://www.magicline.com/de/features/payments/"
+        viewOnline: 'false'
+        websiteUri: 'https://www.magicline.com/de/features/payments/'
     -
-      space:
+      space: ''
     -
       headerImageContain:
         headline: ''
         imageUri: 'https://sportalliance.cdn.salesforce-experience.com/cms/delivery/media/MC5C3PPUKZNNA27DGCOCAQRM57KY?oid=00D2X000000sWe4UAE&channelId=0ap9W000000008lQAA'
     -
-      space:
+      space: ''
     -
       paragraph:
         headline: 'Hello {{legal_representative_first_name}},'
@@ -24,7 +24,7 @@ en:
         headline: ''
         paragraph: 'The terminals you have ordered will be shipped to you shortly.'
     -
-      space:
+      space: ''
     -
       list:
         headline: 'Help Center'
@@ -39,14 +39,11 @@ en:
         bullet8: 'Invoices for Magicline Payments'
         bullet9: 'Activation of further studios for Magicline Payments'
         bullet10: 'Payouts of sales made with Magicline Payments to my bank account and deposits'
-
-
     -
-      space-smaller:
-
+      space-smaller: ''
     -
       paragraph:
-        paragraph: "If you have any questions or need assistance, do not hesitate to answer to this e-mail or reach out to us here: <a href='mailto:mlpayments@magicline.com'>mlpayments@magicline.com</a>"
+        paragraph: 'If you have any questions or need assistance, do not hesitate to answer to this e-mail or reach out to us here: <a href=''mailto:mlpayments@magicline.com''>mlpayments@magicline.com</a>'
     -
       paragraph:
         paragraph: 'Enjoy Magicline Payments'
@@ -54,11 +51,11 @@ en:
       paragraphBold:
         paragraph: '<strong>Your Magicline Team</strong>'
     -
-      space:
+      space: ''
     -
-      divider:
+      divider: ''
     -
       footer:
         hideUnsubscribe: 'true'
     -
-      space:
+      space: ''

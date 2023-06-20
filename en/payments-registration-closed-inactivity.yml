@@ -1,0 +1,58 @@
+en:
+  payments-registration-closed-inactivity:
+    -
+      preheader:
+        paragraph: 'Your Magicline Payments registration has been terminated'
+    -
+      header:
+        viewOnline: "false"
+        websiteUri: "https://www.magicline.com/de/features/payments/"
+    -
+      space:
+    -
+      headerImageContain:
+        headline: ''
+        imageUri: 'https://sportalliance.cdn.salesforce-experience.com/cms/delivery/media/MC5C3PPUKZNNA27DGCOCAQRM57KY?oid=00D2X000000sWe4UAE&channelId=0ap9W000000008lQAA'
+    -
+      space:
+    -
+      paragraph:
+        headline: 'Hello {{legal_representative_first_name}},'
+        paragraph: 'unfortunately, your Magicline Payments registration has been terminated due to inactivity.'
+    -
+      paragraph:
+        headline: ''
+        paragraph: 'If you wish to get started with Magicline Payments and make use of our comprehensive solution for all your payment processes, you need to register again here: '
+    -
+      space-smaller:
+    -
+      button:
+        buttonLink: 'https://{{tenant}}.web.magicline.com/?orgUnitId={{studio_id}}#/appstore/magiclinepayments'
+        buttonLabel: 'Register now'
+    -
+      space:
+    -
+      paragraphHighlight:
+        headline: 'Did you know?'
+        paragraph: "Magicline Payments offers you one comprehensive solution for all your payment processes. From one-time payments to SEPA and all major credit cards: We offer the highest security standards at no additional costs. Learn more here: <a href='https://www.magicline.com/de/features/payments/'>https://www.magicline.com/de/features/payments/</a>"
+    -
+      space-smaller:
+    -
+      divider:
+    -
+      space-smaller:
+    -
+      paragraph:
+        paragraph: "If you have any questions or need assistance, do not hesitate to answer to this e-mail or reach out to us here: <a href='mailto:mlpayments@magicline.com'>mlpayments@magicline.com</a>"
+    -
+      paragraphBold:
+        paragraph: '<strong>Your Magicline Team</strong>'
+    -
+      space:
+    -
+      divider:
+    -
+      footer:
+        hideUnsubscribe: "true"
+    -
+      space:

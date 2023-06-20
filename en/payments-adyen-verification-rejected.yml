@@ -5,38 +5,38 @@ en:
         paragraph: 'Your Magicline Payments verification was rejected'
     -
       header:
-        viewOnline: "false"
-        websiteUri: "https://www.magicline.com/de/features/payments/"
+        viewOnline: 'false'
+        websiteUri: 'https://www.magicline.com/de/features/payments/'
     -
-      space:
+      space: ''
     -
       headerImageContain:
         headline: ''
         imageUri: 'https://sportalliance.cdn.salesforce-experience.com/cms/delivery/media/MC5C3PPUKZNNA27DGCOCAQRM57KY?oid=00D2X000000sWe4UAE&channelId=0ap9W000000008lQAA'
     -
-      space:
+      space: ''
     -
       paragraph:
         headline: 'Hello {{legal_representative_first_name}},'
         paragraph: 'unfortunately, your Magicline Payments registration has been rejected and the registration process was terminated.'
     -
-      space-smaller:
+      space-smaller: ''
     -
-      divider:
+      divider: ''
     -
-      space-smaller:
+      space-smaller: ''
     -
       paragraph:
-        paragraph: "If you have any questions or need assistance, do not hesitate to answer to this e-mail or reach out to us here: <a href='mailto:mlpayments@magicline.com'>mlpayments@magicline.com</a>"
+        paragraph: 'If you have any questions or need assistance, do not hesitate to answer to this e-mail or reach out to us here: <a href=''mailto:mlpayments@magicline.com''>mlpayments@magicline.com</a>'
     -
       paragraphBold:
         paragraph: '<strong>Your Magicline Team</strong>'
     -
-      space:
+      space: ''
     -
-      divider:
+      divider: ''
     -
       footer:
-        hideUnsubscribe: "true"
+        hideUnsubscribe: 'true'
     -
-      space:
+      space: ''

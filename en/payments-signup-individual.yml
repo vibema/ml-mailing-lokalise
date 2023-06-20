@@ -5,18 +5,18 @@ en:
         paragraph: 'Welcome to Magicline Payments {{studio_name}} - {{legal_entity_name}}!'
     -
       header:
-        viewOnline: "false"
-        websiteUri: "https://www.magicline.com/de/features/payments/"
+        viewOnline: 'false'
+        websiteUri: 'https://www.magicline.com/de/features/payments/'
     -
-      space-smaller:
+      space-smaller: ''
     -
-      space-smaller:
+      space-smaller: ''
     -
       headerImageContain:
         headline: ''
         imageUri: 'https://sportalliance.cdn.salesforce-experience.com/cms/delivery/media/MC5C3PPUKZNNA27DGCOCAQRM57KY?oid=00D2X000000sWe4UAE&channelId=0ap9W000000008lQAA'
     -
-      space:
+      space: ''
     -
       paragraph:
         headline: 'Hello {{legal_representative_first_name}},'
@@ -24,36 +24,36 @@ en:
     -
       paragraph:
         headline: ''
-        paragraph: "In order to finish your registration process, you are required to do the following: Click on the button below to get to the <strong><a href=''>App Store</a></strong>. There you can directly start your registration process."
+        paragraph: 'In order to finish your registration process, you are required to do the following: Click on the button below to get to the <strong><a href=''>App Store</a></strong>. There you can directly start your registration process.'
     -
-      space-smaller:
+      space-smaller: ''
     -
       button:
-        buttonLink: 'www.google.de'
+        buttonLink: www.google.de
         buttonLabel: 'Continue activation'
     -
-      space:
+      space: ''
     -
       list:
         headline: 'Please have the following documents ready&#58;'
         bullet1: 'The official document of your VAT ID'
-        bullet2:  'A bank statement, or screenshot from the online banking of the bank account that you want to provide as a payout account'
-        bullet3:  'IDs/Passports of all owners and controlling persons'
+        bullet2: 'A bank statement, or screenshot from the online banking of the bank account that you want to provide as a payout account'
+        bullet3: 'IDs/Passports of all owners and controlling persons'
     -
-      space-smaller:
+      space-smaller: ''
     -
       paragraph:
         headline: ''
         paragraph: '<strong>Important:</strong> All documents have to have a date issued less than 12 months ago, or be revalidated by placing a handwritten recent date and a readable signature. If this is not provided, the registration process will not be successful and you will be asked to provide the data again.'
     -
       paragraph:
-        paragraph: "If you ordered a terminal for your payments, it will be sent out after your registration has been completed successfully. If you have not ordered one yet, you can do so in the App Store <a href='https://{{tenant}}.web.magicline.com/?orgUnitId={{studio_id}}#/appstore/magiclinepayments'>now</a>."
+        paragraph: 'If you ordered a terminal for your payments, it will be sent out after your registration has been completed successfully. If you have not ordered one yet, you can do so in the App Store <a href=''https://{{tenant}}.web.magicline.com/?orgUnitId={{studio_id}}#/appstore/magiclinepayments''>now</a>.'
     -
-      space:
+      space: ''
     -
-      divider:
+      divider: ''
     -
-      space-smaller:
+      space-smaller: ''
     -
       headline:
         headline: 'You made a great decision'
@@ -63,7 +63,7 @@ en:
         paragraph: 'Magicline Payments is the comprehensive solution for your payment processes – online and in the studio. Our service offers you a transparent and correct processing of one-time payments, recurring payments and terminal payments.'
     -
       paragraph:
-        paragraph: "If you have any questions or need assistance, do not hesitate to answer to this e-mail or reach out to us here: <a href='mailto:mlpayments@magicline.com'>mlpayments@magicline.com</a>"
+        paragraph: 'If you have any questions or need assistance, do not hesitate to answer to this e-mail or reach out to us here: <a href=''mailto:mlpayments@magicline.com''>mlpayments@magicline.com</a>'
     -
       paragraph:
         paragraph: 'Thank you again for being a valued member of Magicline Payments!'
@@ -71,11 +71,11 @@ en:
       paragraphBold:
         paragraph: '<strong>Your Magicline Team</strong>'
     -
-      space:
+      space: ''
     -
-      divider:
+      divider: ''
     -
       footer:
-        hideUnsubscribe: "true"
+        hideUnsubscribe: 'true'
     -
-      space:
+      space: ''

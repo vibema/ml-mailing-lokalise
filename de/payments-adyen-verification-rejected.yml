@@ -1,0 +1,42 @@
+de:
+  payments-adyen-verification-rejected:
+    -
+      preheader:
+        paragraph: ''
+    -
+      header:
+        viewOnline: ''
+        websiteUri: ''
+    -
+      space: ''
+    -
+      headerImageContain:
+        headline: ''
+        imageUri: ''
+    -
+      space: ''
+    -
+      paragraph:
+        headline: ''
+        paragraph: ''
+    -
+      space-smaller: ''
+    -
+      divider: ''
+    -
+      space-smaller: ''
+    -
+      paragraph:
+        paragraph: ''
+    -
+      paragraphBold:
+        paragraph: ''
+    -
+      space: ''
+    -
+      divider: ''
+    -
+      footer:
+        hideUnsubscribe: ''
+    -
+      space: ''

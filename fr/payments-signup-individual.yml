@@ -1,0 +1,81 @@
+fr:
+  payments-signup-individual:
+    -
+      preheader:
+        paragraph: ''
+    -
+      header:
+        viewOnline: ''
+        websiteUri: ''
+    -
+      space-smaller: ''
+    -
+      space-smaller: ''
+    -
+      headerImageContain:
+        headline: ''
+        imageUri: ''
+    -
+      space: ''
+    -
+      paragraph:
+        headline: ''
+        paragraph: ''
+    -
+      paragraph:
+        headline: ''
+        paragraph: ''
+    -
+      space-smaller: ''
+    -
+      button:
+        buttonLink: ''
+        buttonLabel: ''
+    -
+      space: ''
+    -
+      list:
+        headline: ''
+        bullet1: ''
+        bullet2: ''
+        bullet3: ''
+    -
+      space-smaller: ''
+    -
+      paragraph:
+        headline: ''
+        paragraph: ''
+    -
+      paragraph:
+        paragraph: ''
+    -
+      space: ''
+    -
+      divider: ''
+    -
+      space-smaller: ''
+    -
+      headline:
+        headline: ''
+    -
+      paragraph:
+        headline: ''
+        paragraph: ''
+    -
+      paragraph:
+        paragraph: ''
+    -
+      paragraph:
+        paragraph: ''
+    -
+      paragraphBold:
+        paragraph: ''
+    -
+      space: ''
+    -
+      divider: ''
+    -
+      footer:
+        hideUnsubscribe: ''
+    -
+      space: ''

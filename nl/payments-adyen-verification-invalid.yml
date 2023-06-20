@@ -1,0 +1,48 @@
+nl:
+  payments-adyen-verification-invalid:
+    -
+      preheader:
+        paragraph: ''
+    -
+      header:
+        viewOnline: ''
+        websiteUri: ''
+    -
+      space: ''
+    -
+      headerImageContain:
+        headline: ''
+        imageUri: ''
+    -
+      space: ''
+    -
+      paragraph:
+        headline: ''
+        paragraph: ''
+    -
+      paragraph:
+        headline: ''
+        paragraph: ''
+    -
+      button:
+        buttonLink: ''
+        buttonLabel: ''
+    -
+      divider: ''
+    -
+      space-smaller: ''
+    -
+      paragraph:
+        paragraph: ''
+    -
+      paragraphBold:
+        paragraph: ''
+    -
+      space: ''
+    -
+      divider: ''
+    -
+      footer:
+        hideUnsubscribe: ''
+    -
+      space: ''

@@ -5,14 +5,14 @@ es:
         paragraph: ''
     -
       header:
-        viewOnline: ''
+        viewOnline: 'false'
         websiteUri: ''
     -
       space: ''
     -
       headerImageContain:
         headline: ''
-        imageUri: ''
+        imageUri: 'https://sportalliance.cdn.salesforce-experience.com/cms/delivery/media/MC5C3PPUKZNNA27DGCOCAQRM57KY?oid=00D2X000000sWe4UAE&channelId=0ap9W000000008lQAA'
     -
       space: ''
     -
@@ -56,6 +56,6 @@ es:
       divider: ''
     -
       footer:
-        hideUnsubscribe: ''
+        hideUnsubscribe: 'true'
     -
       space: ''

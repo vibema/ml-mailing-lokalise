@@ -6,7 +6,7 @@ en:
     -
       header:
         viewOnline: 'false'
-        websiteUri: 'https://www.magicline.com/de/features/payments/'
+        websiteUri: 'https://www.magicline.com/en/features/payments/'
     -
       space-smaller: ''
     -
@@ -24,7 +24,7 @@ en:
     -
       paragraph:
         headline: ''
-        paragraph: 'In order to finish your registration process, you are required to do the following: Click on the button below to get to the <strong><a href=''>App Store</a></strong>. There you can directly start your registration process.'
+        paragraph: 'In order to finish your registration process, you are required to do the following: Click on the button below to get to the <strong><a href=''''>App Store</a></strong>. There you can directly start your registration process.'
     -
       space-smaller: ''
     -

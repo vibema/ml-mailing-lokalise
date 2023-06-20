@@ -6,7 +6,7 @@ en:
     -
       header:
         viewOnline: 'false'
-        websiteUri: 'https://www.magicline.com/de/features/payments/'
+        websiteUri: 'https://www.magicline.com/en/features/payments/'
     -
       space: ''
     -
@@ -37,7 +37,7 @@ en:
     -
       paragraphHighlight:
         headline: 'Did you know?'
-        paragraph: 'Magicline Payments offers you one comprehensive solution for all your payment processes. From one-time payments to SEPA and all major credit cards: We offer the highest security standards at no additional costs. Learn more here: <a href=''https://www.magicline.com/de/features/payments/''>https://www.magicline.com/de/features/payments/</a>'
+        paragraph: 'Magicline Payments offers you one comprehensive solution for all your payment processes. From one-time payments to SEPA and all major credit cards: We offer the highest security standards at no additional costs. Learn more here: <a href=''https://www.magicline.com/en/features/payments/''>https://www.magicline.com/en/features/payments/</a>'
     -
       space-smaller: ''
     -

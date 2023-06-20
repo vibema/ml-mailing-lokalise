@@ -41,12 +41,12 @@ en:
     -
       paragraph:
         headline: 'false'
-        paragraph: 'Start right now with your new  <a href=''https://www.magicline.com/de/preise/?utm_source=magicline&utm_medium=mailing&utm_campaign=automated_upgrade''>Pricing tier ${pricing_tier_name}</a>. In the <a href=''https://support.magicline.com/hc/de?utm_source=magicline&utm_medium=mailing&utm_campaign=automated_upgrade''>Help Center</a> you will also find a lot of useful tips for using your Magicline.'
+        paragraph: 'Start right now with your new <a href=''https://www.magicline.com/en/pricing/?utm_source=magicline&utm_medium=mailing&utm_campaign=automated_upgrade''> Pricing tier ${pricing_tier_name}</a>. In the <a href=''https://support.magicline.com/hc/en-001?utm_campaign=automated_upgrade&utm_medium=mailing&utm_source=magicline''>Help Center</a> you will also find a lot of useful tips for using your Magicline.'
         condition: 'pricing_tier_name == "Basic"'
     -
       paragraph:
         headline: 'false'
-        paragraph: 'Discover the many new possibilities with <a href=''https://www.magicline.com/de/preise/?utm_source=magicline&utm_medium=mailing&utm_campaign=automated_upgrade''>${pricing_tier_name}</a> and start right away. In the <a href=''https://support.magicline.com/hc/de?utm_source=magicline&utm_medium=mailing&utm_campaign=automated_upgrade''>Help Center</a> you will also find a lot of useful tips for using your Magicline.'
+        paragraph: 'Discover the many new possibilities with <a href=''https://www.magicline.com/en/pricing/?utm_source=magicline&utm_medium=mailing&utm_campaign=automated_upgrade''>${pricing_tier_name}</a> and start right away. In the <a href=''https://support.magicline.com/hc/en-001?utm_campaign=automated_upgrade&utm_medium=mailing&utm_source=magicline''>Help Center</a> you will also find a lot of useful tips for using your Magicline.'
         condition: 'pricing_tier_name == ''Advanced'' || pricing_tier_name == ''Pro'' || pricing_tier_name == ''Ultimate'''
     -
       button:

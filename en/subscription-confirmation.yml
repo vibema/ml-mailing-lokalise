@@ -21,7 +21,7 @@ en:
     -
       paragraph:
         headline: 'Hello ${recipient_firstname},'
-        paragraph: 'We are happy that you are here! With Magicline, you have made the right choice for your studio. From now on you are able to use all features from the <a href=''https://www.magicline.com/de/preise/?utm_source=magicline&utm_medium=mailing&utm_campaign=demo_welcome''>pricing tier ${pricing_tier_name}</a>.'
+        paragraph: 'We are happy that you are here! With Magicline, you have made the right choice for your studio. From now on you are able to use all features from the <a href=''https://www.magicline.com/en/pricing/?utm_source=magicline&utm_medium=mailing&utm_campaign=automated_upgrade''>pricing tier ${pricing_tier_name}</a>.'
         condition: 'is_paid_pricing_tier == true'
     -
       space: ''

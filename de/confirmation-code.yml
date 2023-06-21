@@ -32,7 +32,7 @@ de:
       divider: ''
     -
       paragraph:
-        paragraph: '<small style=''display: block; font-size: clamp(8px, 90%, 3vw); line-height: 120%;''>Es gelten die jeweils aktuellen <a href=''${gtc_url}'' target=''_blank'' style=''text-decoration: underline;''>AGB</a> zur Softwarenutzung, die <a target=''_blank'' href=''${privacy_url}'' style=''text-decoration: underline;''>Datenschutzvereinbarung</a> sowie die <a href=''${dpa_url}'' target=''_blank'' style=''text-decoration: underline;''>Vereinbarung zur Auftragsverarbeitung (AVV)</a>.</small>'
+        paragraph: '<small style=''display: block; font-size: clamp(8px, 90%, 3vw); line-height: 120%;''>Der Vertrag wird für 24 Monate geschlossen und verlängert sich nach der Mindestvertragslaufzeit um jeweils 12 Monate. Eine Kündigung des Vertrags ist jederzeit mit einer Frist von einem Monat zum Ende der Vertragslaufszeit möglich. Es gelten die jeweils aktuellen <a href=''${gtc_url}'' target=''_blank'' style=''text-decoration: underline;''>AGB</a> zur Softwarenutzung, die <a target=''_blank'' href=''${privacy_url}'' style=''text-decoration: underline;''>Datenschutzvereinbarung</a> sowie die <a href=''${dpa_url}'' target=''_blank'' style=''text-decoration: underline;''>Vereinbarung zur Auftragsverarbeitung (AVV)</a>.</small>'
     -
       footer:
         hideUnsubscribe: 'true'

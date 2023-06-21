@@ -89,7 +89,7 @@ en:
       divider: ''
     -
       paragraph:
-        paragraph: '<small style=''display: block; font-size: clamp(8px, 90%, 3vw); line-height: 120%;''>The respective current <a href=''${gtc_url}'' target=''_blank'' style=''text-decoration: underline;''>GTC</a> for software use, the <a target=''_blank'' href=''${privacy_url}'' style=''text-decoration: underline;''>Data Protection Agreement</a> and the <a href=''${dpa_url}'' target=''_blank'' style=''text-decoration: underline;''>Contract Processing Agreement </a> shall apply.</small>'
+        paragraph: '<small style=''display: block; font-size: clamp(8px, 90%, 3vw); line-height: 120%;''>The contract is concluded for 24 months and is extended after the minimum contract period for another 12 months. The contract can be terminated at any time with one month''s notice to the end of the contractual term. The respective current <a href=''${gtc_url}'' target=''_blank'' style=''text-decoration: underline;''>GTC</a> for software use, the <a target=''_blank'' href=''${privacy_url}'' style=''text-decoration: underline;''>Data Protection Agreement</a> and the <a href=''${dpa_url}'' target=''_blank'' style=''text-decoration: underline;''>Contract Processing Agreement </a> shall apply.</small>'
     -
       footer:
         hideUnsubscribe: 'true'

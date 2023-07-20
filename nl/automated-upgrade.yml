@@ -2,55 +2,55 @@ nl:
   automated-upgrade:
     -
       preheader:
-        paragraph: ''
+        paragraph: 'Je nieuwe Magicline-contract is nu actief.'
     -
       header:
         viewOnline: 'false'
-        websiteUri: ''
+        websiteUri: 'https://magicline.com/nl/'
     -
       headerImage:
-        headline: ''
+        headline: 'Je Magicline is automatisch omgeschakeld'
         imageUri: 'https://sportalliance.cdn.salesforce-experience.com/cms/delivery/media/MC3PD374BR7ZFTREW4G6DLYXUBCA?oid=00D2X000000sWe4UAE&channelId=0ap9W000000008lQAA'
     -
       space: ''
     -
       paragraph:
-        headline: ''
-        paragraph: ''
+        headline: 'Hallo ${ontvanger_voornaam},'
+        paragraph: 'Je Magicline is vandaag automatisch geüpgraded naar het volgende hogere prijspakket omdat je contractlimiet is bereikt. De limiet is afhankelijk van het aantal leden, apparaten aangesloten op Magicline of gebruikte partnerintegraties, zoals EGYM, Zoom of de Connect API.'
     -
       space: ''
     -
       package:
-        headline: ''
+        headline: 'Jouw nieuwe Magicline-contract in één oogopslag'
         list:
           -
             image1: 'https://sportalliance.cdn.salesforce-experience.com/cms/delivery/media/MCX4PLBYUEWJEXTHXY2VQFLFRN54?oid=00D2X000000sWe4UAE&channelId=0ap9W000000008lQAA'
-            headline1: ''
-            text1: ''
+            headline1: 'jouw tarief'
+            text1: '${pricing_tier_name} voor ${price_per_month} € maand'
           -
             image2: 'https://sportalliance.cdn.salesforce-experience.com/cms/delivery/media/MC2WS3XRIGTZD2RGIVVQB3EZS3S4?oid=00D2X000000sWe4UAE&channelId=0ap9W000000008lQAA'
-            headline2: ''
+            headline2: Betaalmethode
             text2: '${payment_method}'
             condition: 'is_paid_pricing_tier == true'
           -
             image3: 'https://sportalliance.cdn.salesforce-experience.com/cms/delivery/media/MCUIFIF3AL7ZBS3IFSYLIDTASU5U?oid=00D2X000000sWe4UAE&channelId=0ap9W000000008lQAA'
-            headline3: ''
+            headline3: 'Begin van het contract'
             text3: '${start_date_of_subscription} '
     -
       space: ''
     -
       paragraph:
         headline: 'false'
-        paragraph: ''
+        paragraph: 'Begin meteen met je nieuwe <a href=''https://www.magicline.com/de/preise/?utm_source=magicline&utm_medium=mailing&utm_campaign=automated_upgrade''>prijzenpakket ${pricing_tier_name}</a>. In het <a href=''https://support.magicline.com/hc/de?utm_source=magicline&utm_medium=mailing&utm_campaign=automated_upgrade''>Helpcentrum</a> vind je ook veel handige tips voor het gebruik van jouw Magicline.'
         condition: 'pricing_tier_name == "Basic"'
     -
       paragraph:
         headline: 'false'
-        paragraph: ''
+        paragraph: 'Ontdek de vele nieuwe mogelijkheden met <a href=''https://www.magicline.com/de/preise/?utm_source=magicline&utm_medium=mailing&utm_campaign=automated_upgrade''>${pricing_tier_name}</a> en ga direct aan de slag. In het <a href=''https://support.magicline.com/hc/de?utm_source=magicline&utm_medium=mailing&utm_campaign=automated_upgrade''>Helpcentrum</a> vind je ook veel nuttige tips bij het gebruiken van jouw magicline. '
         condition: 'pricing_tier_name == ''Advanced'' || pricing_tier_name == ''Pro'' || pricing_tier_name == ''Ultimate'''
     -
       button:
-        buttonLabel: ''
+        buttonLabel: 'Terug naar je Magicline'
         buttonLink: '${tenant_url}/?campaign_source=automated_upgrade'
     -
       divider: ''
@@ -58,29 +58,29 @@ nl:
       space-smaller: ''
     -
       paragraph:
-        headline: ''
-        paragraph: ''
+        headline: 'Heb je nog vragen?'
+        paragraph: 'Ons team helpt je graag verder. Stuur ons gewoon een e-mail naar <a href=''mailto:support-de@magicline.com''>support-nl@magicline.com</a> of gebruik de chatfunctie in je Magicline.'
         condition: 'pricing_tier_name == "Basic"'
     -
       paragraph:
-        headline: ''
+        headline: 'Heb je nog vragen?'
         condition: 'pricing_tier_name == ''Advanced'' || pricing_tier_name == ''Pro'' || pricing_tier_name == ''Ultimate'''
-        paragraph: ''
+        paragraph: 'Als je vragen hebt over je contract, neem dan contact met ons op van maandag tot vrijdag tussen 8:00 en 18:00 uur. Per telefoon op <a href=''tel:+49404293240,''>+49 40 429 324 0</a>, per chat of stuur een e-mail naar <a href=''mailto:support-de@magicline.com''>support-nl@magicline.com.</a>'
     -
       paragraph:
         headline: 'false'
-        paragraph: ''
+        paragraph: 'We wensen je veel succes met de club.'
     -
       paragraph:
         headline: 'false'
-        paragraph: ''
+        paragraph: 'Met vriendelijke groet <br/> <strong> Jouw Magicline-team </strong>'
     -
       space-smaller: ''
     -
       divider: ''
     -
       paragraph:
-        paragraph: ''
+        paragraph: '<small style=''display: block; font-size: clamp(8px, 90%, 3vw); line-height: 120%;''>Het contract wordt afgesloten voor 24 maanden en wordt na de minimale contractperiode telkens met 12 maanden verlengd. Het contract kan te allen tijde worden opgezegd met een opzegtermijn van een maand tot het einde van de contractperiode. Van toepassing zijn de geldende <a href=''${gtc_url}'' target=''_blank'' style=''text-decoration: underline;''>Algemene Voorwaarden</a> voor het gebruik van software, de <a target=''_blank'' href=''${privacy_url}'' style=''text-decoration: underline;''>overeenkomst inzake gegevensbescherming</a> en de <a href=''${dpa_url}'' target=''_blank'' style=''text-decoration: underline;''>overeenkomst inzake de verwerking van gegevens in opdracht (AVV)</a>.</small>'
     -
       footer:
         hideUnsubscribe: 'true'

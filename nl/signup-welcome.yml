@@ -2,15 +2,15 @@ nl:
   signup-welcome:
     -
       preheader:
-        paragraph: ''
+        paragraph: 'Probeer het nu 30 dagen gratis uit.'
     -
       header:
         viewOnline: 'false'
-        websiteUri: ''
+        websiteUri: 'https://magicline.com/nl/'
     -
       headerImage:
-        headline: ''
-        subline: ''
+        headline: 'Jouw gratis Magicline demo'
+        subline: 'Probeer het nu 30 dagen'
         imageUri: 'https://sportalliance.cdn.salesforce-experience.com/cms/delivery/media/MC3PD374BR7ZFTREW4G6DLYXUBCA?oid=00D2X000000sWe4UAE&channelId=0ap9W000000008lQAA'
     -
       space: ''
@@ -18,23 +18,23 @@ nl:
       space-smaller: ''
     -
       paragraph:
-        headline: ''
-        paragraph: ''
+        headline: 'Beste Magicliner,'
+        paragraph: 'Wat leuk dat je hier bent en kennis wilt maken met Magicline. Je demo account is nu <b>gratis</b> beschikbaar voor <b>de komende 30 dagen</b>. Dit is de beste manier om onze software uit te proberen. '
     -
       space-smaller: ''
     -
       paragraph:
         headline: 'false'
-        paragraph: ''
+        paragraph: 'Wil je persoonlijk inzicht? Boek dan nu je gratis consult en ontdek hoe de Magicline je kan helpen meer omzet en groei te realiseren.'
     -
       space-smaller: ''
     -
       button:
-        buttonLabel: ''
-        buttonLink: ''
+        buttonLabel: 'Maak een gratis afspraak'
+        buttonLink: 'https://demodesk.com/book/sport-alliance-team/magicline/?utm_source=magicline&utm_medium=mailing&utm_campaign=demo_sign_up'
     -
       tenant:
-        headline: ''
+        headline: 'Jouw toegangsgegevens'
         list:
           -
             image1: 'https://sportalliance.cdn.salesforce-experience.com/cms/delivery/media/MCN773B7PYKFAU3E2PJ3ZA3W5RZI?oid=00D2X000000sWe4UAE&channelId=0ap9W000000008lQAA'
@@ -44,27 +44,27 @@ nl:
             image2: 'https://sportalliance.cdn.salesforce-experience.com/cms/delivery/media/MCPL3WDWYZ6VC37BYVZ6PQOCVFYY?oid=00D2X000000sWe4UAE&channelId=0ap9W000000008lQAA'
             text2: '${recipient_email}'
             link2: ''
-        paragraph: ''
+        paragraph: '<b>Goed om te weten:</b> Alle gegevens die je invoert worden alleen opgeslagen voor demodoeleinden en na 30 dagen verwijderd. Je kunt op elk moment overschakelen naar het <a href=''${tenant_url}/?checkout_campaign=true&checkout_campaign_source=demo_sign_up''>Freemium pakket</a>.'
     -
       space-smaller: ''
     -
       space: ''
     -
       paragraph:
-        headline: ''
-        paragraph: ''
+        headline: 'Jouw persoonlijke afspraak'
+        paragraph: 'Ons team helpt je graag verder en laat je in een korte afspraak de mogelijkheden zien die Magicline je biedt.'
     -
       button:
-        buttonLabel: ''
-        buttonLink: ''
+        buttonLabel: 'Maak een gratis afspraak'
+        buttonLink: 'https://demodesk.com/book/sport-alliance-team/magicline/?utm_source=magicline&utm_medium=mailing&utm_campaign=demo_sign_up'
     -
       paragraph:
         headline: 'false'
-        paragraph: ''
+        paragraph: 'We wensen je veel plezier met je demo account.'
     -
       paragraph:
         headline: 'false'
-        paragraph: ''
+        paragraph: 'Met vriendelijke groet, <br/> <strong>Jouw Magicline Team</strong>'
     -
       space: ''
     -
@@ -72,7 +72,7 @@ nl:
     -
       paragraph:
         headline: 'false'
-        paragraph: ''
+        paragraph: '<small style=''display: block; font-size: clamp(8px, 90%, 3vw); line-height: 120%;''>Het contract wordt afgesloten voor 24 maanden en wordt na de minimale contractperiode telkens met 12 maanden verlengd. Het contract kan te allen tijde worden opgezegd met een opzegtermijn van een maand tot het einde van de contractperiode. Van toepassing zijn de geldende <a href=''${gtc_url}'' target=''_blank'' style=''text-decoration: underline;''>Algemene Voorwaarden</a> voor het gebruik van software, de <a target=''_blank'' href=''${privacy_url}'' style=''text-decoration: underline;''>overeenkomst inzake gegevensbescherming</a> en de <a href=''${dpa_url}'' target=''_blank'' style=''text-decoration: underline;''>overeenkomst inzake de verwerking van gegevens in opdracht (AVV)</a>.</small>'
     -
       footer:
         hideUnsubscribe: 'true'

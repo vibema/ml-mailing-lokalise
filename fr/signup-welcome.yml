@@ -2,15 +2,15 @@ fr:
   signup-welcome:
     -
       preheader:
-        paragraph: ''
+        paragraph: 'Essayez Magicline pendant 30 jours gratuitement.'
     -
       header:
         viewOnline: 'false'
-        websiteUri: ''
+        websiteUri: 'https://www.magicline.com/fr/'
     -
       headerImage:
-        headline: ''
-        subline: ''
+        headline: 'Votre démo Magicline gratuite'
+        subline: 'Essayez Magicline pendant 30 jours'
         imageUri: 'https://sportalliance.cdn.salesforce-experience.com/cms/delivery/media/MC3PD374BR7ZFTREW4G6DLYXUBCA?oid=00D2X000000sWe4UAE&channelId=0ap9W000000008lQAA'
     -
       space: ''
@@ -18,23 +18,23 @@ fr:
       space-smaller: ''
     -
       paragraph:
-        headline: ''
-        paragraph: ''
+        headline: 'Cher utilisateur de Magicline,'
+        paragraph: 'Votre compte de démo est dès maintenant disponible <b>gratuitement pour les 30 prochains jours</b>. C''est la meilleure façon de vous faire une idée de notre logiciel. '
     -
       space-smaller: ''
     -
       paragraph:
         headline: 'false'
-        paragraph: ''
+        paragraph: 'Vous souhaitez un entretien personnel ? Réservez votre démo gratuite dès maintenant et découvrez les solutions que Magicline peut vous offrir pour développer votre entreprise.'
     -
       space-smaller: ''
     -
       button:
-        buttonLabel: ''
-        buttonLink: ''
+        buttonLabel: 'Réserver une démo gratuite'
+        buttonLink: 'https://demodesk.com/book/sport-alliance-team/magicline-fr/?utm_source=magicline.com&utm_medium=direct'
     -
       tenant:
-        headline: ''
+        headline: 'Vos données d’accès'
         list:
           -
             image1: 'https://sportalliance.cdn.salesforce-experience.com/cms/delivery/media/MCN773B7PYKFAU3E2PJ3ZA3W5RZI?oid=00D2X000000sWe4UAE&channelId=0ap9W000000008lQAA'
@@ -44,27 +44,27 @@ fr:
             image2: 'https://sportalliance.cdn.salesforce-experience.com/cms/delivery/media/MCPL3WDWYZ6VC37BYVZ6PQOCVFYY?oid=00D2X000000sWe4UAE&channelId=0ap9W000000008lQAA'
             text2: '${recipient_email}'
             link2: ''
-        paragraph: ''
+        paragraph: '<b>Bon à savoir :</b> toutes les données que vous entrez ne sont stockées que dans votre version de démo et seront supprimées après 30 jours. Vous pouvez passer à la formule Free <a href=''${tenant_url}/?checkout_campaign=true&checkout_campaign_source=demo_sign_up''> gratuite</a> à tout moment.'
     -
       space-smaller: ''
     -
       space: ''
     -
       paragraph:
-        headline: ''
-        paragraph: ''
+        headline: 'Votre entretien personnel'
+        paragraph: 'Notre équipe se tient à votre disposition pour vous montrer, lors d''un bref entretien, les solutions que peut vous offrir Magicline.'
     -
       button:
-        buttonLabel: ''
-        buttonLink: ''
+        buttonLabel: 'Réserver une démo gratuite'
+        buttonLink: 'https://demodesk.com/book/sport-alliance-team/magicline-fr/?utm_source=magicline.com&utm_medium=direct'
     -
       paragraph:
         headline: 'false'
-        paragraph: ''
+        paragraph: 'Nous vous souhaitons une belle découverte avec votre compte de démo.'
     -
       paragraph:
         headline: 'false'
-        paragraph: ''
+        paragraph: 'Bien cordialement <br/> <strong> Votre équipe Magicline </strong>'
     -
       space: ''
     -
@@ -72,7 +72,7 @@ fr:
     -
       paragraph:
         headline: 'false'
-        paragraph: ''
+        paragraph: '<small style=''display: block; font-size: clamp(8px, 90%, 3vw); line-height: 120%;''>Le contrat est conclu pour une durée de 24 mois et est prolongé de 12 mois après la durée minimale du contrat. Une résiliation du contrat est possible à tout moment avec un préavis d''un mois avant la fin de la durée du contrat. Les <a href=''${gtc_url}'' target=''_blank'' style=''text-decoration: underline;''>conditions générales</a> d''utilisation du logiciel en vigueur, l''<a target=''_blank'' href=''${privacy_url}'' style=''text-decoration: underline;''>accord sur la protection des données</a> ainsi que l''<a href=''${dpa_url}'' target=''_blank'' style=''text-decoration: underline;''>accord sur le traitement des données</a> sont applicables.</small>'
     -
       footer:
         hideUnsubscribe: 'true'

@@ -2,45 +2,45 @@ it:
   subscription-confirmation:
     -
       preheader:
-        paragraph: ''
+        paragraph: 'Il tuo contratto Magicline è ora attivo e pronto per essere configurato.'
     -
       header:
         viewOnline: 'false'
-        websiteUri: ''
+        websiteUri: 'https://magicline.com/it/'
     -
       headerImage:
-        headline: ''
+        headline: 'Inizia con la tua Magicline'
         imageUri: 'https://sportalliance.cdn.salesforce-experience.com/cms/delivery/media/MC3PD374BR7ZFTREW4G6DLYXUBCA?oid=00D2X000000sWe4UAE&channelId=0ap9W000000008lQAA'
     -
       space: ''
     -
       paragraph:
-        headline: ''
-        paragraph: ''
+        headline: 'Ciao $ {recipient_firstname} ,'
+        paragraph: 'Che bello che tu sia qui! Con il nostro software hai fatto la scelta giusta per la tua palestra. D''ora in poi puoi utilizzare tutte le funzioni di base, dalla semplice gestione degli abbonati o alla gestione gratuita dei potenziali clienti.'
         condition: 'is_paid_pricing_tier == false'
     -
       paragraph:
-        headline: ''
-        paragraph: ''
+        headline: 'Ciao $ {recipient_firstname} ,'
+        paragraph: 'Che bello che tu sia qui! Con il nostro software hai fatto la scelta giusta per la tua palestra. D''ora in poi puoi utilizzare tutte le funzioni del <a href=''https://www.magicline.com/de/preise/?utm_source=magicline&utm_medium=mailing&utm_campaign=demo_welcome''> pacchetto $ {pricing_tier_name} </a> .'
         condition: 'is_paid_pricing_tier == true'
     -
       space: ''
     -
       package:
-        headline: ''
+        headline: 'Il tuo contratto Magicline a colpo d''occhio'
         list:
           -
             image1: 'https://sportalliance.cdn.salesforce-experience.com/cms/delivery/media/MCX4PLBYUEWJEXTHXY2VQFLFRN54?oid=00D2X000000sWe4UAE&channelId=0ap9W000000008lQAA'
-            headline1: ''
-            text1: ''
+            headline1: 'La tua tariffa'
+            text1: '${pricing_tier_name} per ${price_per_month} € al mese'
           -
             image2: 'https://sportalliance.cdn.salesforce-experience.com/cms/delivery/media/MC2WS3XRIGTZD2RGIVVQB3EZS3S4?oid=00D2X000000sWe4UAE&channelId=0ap9W000000008lQAA'
-            headline2: ''
+            headline2: 'Metodo di pagamento'
             text2: '${payment_method}'
             condition: 'is_paid_pricing_tier == true'
           -
             image3: 'https://sportalliance.cdn.salesforce-experience.com/cms/delivery/media/MCUIFIF3AL7ZBS3IFSYLIDTASU5U?oid=00D2X000000sWe4UAE&channelId=0ap9W000000008lQAA'
-            headline3: ''
+            headline3: 'Inizio del contratto'
             text3: '${start_date_of_subscription} '
     -
       space-smaller: ''
@@ -48,13 +48,13 @@ it:
       space: ''
     -
       paragraph:
-        headline: ''
-        paragraph: ''
+        headline: 'Ora è il momento della configurazione'
+        paragraph: 'Accedi direttamente e lascia che la nostra procedura guidata ti mostri passo dopo passo le prime impostazioni importanti. Troverai delle indicazioni molto utili per avviare Magicline nel nostro <a href="https://support.magicline.com/hc/de/categories/4403026093969-Dein-Start-mit-der-Magicline?utm_source=magicline&utm_medium=mailing&utm_campaign=demo_welcome" target="_blank">Centro assistenza </a>.'
     -
       space-smaller: ''
     -
       button:
-        buttonLabel: ''
+        buttonLabel: 'Torna alla tua Magicline'
         buttonLink: '${tenant_url}/?campaign_source=demo_welcome'
     -
       space:
@@ -68,28 +68,28 @@ it:
     -
       paragraph:
         condition: 'pricing_tier_name == ''Basic'''
-        headline: ''
-        paragraph: ''
+        headline: 'Sempre qui per te'
+        paragraph: 'Se hai domande sul tuo contratto, inviaci un''e-mail a <a href=''mailto:support-de@magicline.com''> support-it@magicline.com </a> o utilizza la funzione "Contatta il supporto"da Magicline.'
     -
       paragraph:
         condition: 'pricing_tier_name == ''Advanced'' || pricing_tier_name == ''Pro'' || pricing_tier_name == ''Ultimate'''
-        headline: ''
-        paragraph: ''
+        headline: 'Sempre qui per te'
+        paragraph: 'Se hai domande sul tuo contratto, contattaci telefonicamente dal lunedì al venerdì dalle 8:00 alle 18:00 tramite e-mail all''indirizzo <a href=''mailto:support-de@magicline.com''> support-it@magicline.com </a> .'
     -
       paragraph:
         headline: 'false'
-        paragraph: ''
+        paragraph: 'Ti ringraziamo per la fiducia e ti auguriamo un grande successo con la tua attività in palestra.'
     -
       paragraph:
         headline: 'false'
-        paragraph: ''
+        paragraph: 'Cordiali saluti <br/> <strong> Il tuo team Magicline </strong>'
     -
       space: ''
     -
       divider: ''
     -
       paragraph:
-        paragraph: ''
+        paragraph: '<small style=''display: block; font-size: clamp(8px, 90%, 3vw); line-height: 120%;''>Il contratto viene stipulato per 24 mesi e, dopo la durata minima del contratto, viene prorogato di 12 mesi. Il contratto può essere disdetto in qualsiasi momento con un preavviso di un mese rispetto alla scadenza del contratto. Si applicano i rispettivi <a href=''${gtc_url}'' target=''_blank'' style=''text-decoration: underline;''>Termini e Condizioni</a> in vigore per l''utilizzo del software,<a target=''_blank'' href=''${privacy_url}'' style=''text-decoration: underline;''> l''accordo sulla protezione dei dati</a> e <a href=''${dpa_url}'' target=''_blank'' style=''text-decoration: underline;''>l''accordo sull''elaborazione commissionata (AVV)</a>.</small>'
     -
       footer:
         hideUnsubscribe: 'true'

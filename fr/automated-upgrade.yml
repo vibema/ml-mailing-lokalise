@@ -2,55 +2,55 @@ fr:
   automated-upgrade:
     -
       preheader:
-        paragraph: ''
+        paragraph: 'Votre nouveau contrat Magicline est maintenant actif.'
     -
       header:
         viewOnline: 'false'
-        websiteUri: ''
+        websiteUri: 'https://magicline.com/fr/'
     -
       headerImage:
-        headline: ''
+        headline: 'Votre Magicline a été mise à niveau automatiquement '
         imageUri: 'https://sportalliance.cdn.salesforce-experience.com/cms/delivery/media/MC3PD374BR7ZFTREW4G6DLYXUBCA?oid=00D2X000000sWe4UAE&channelId=0ap9W000000008lQAA'
     -
       space: ''
     -
       paragraph:
-        headline: ''
-        paragraph: ''
+        headline: 'Bonjour $ {recipient_firstname} ,'
+        paragraph: 'Votre Magicline a été mise à niveau automatiquement aujourd''hui vers la prochaine formule tarifaire, car vous avez atteint la limite de votre contrat. Cette limite est déterminée par le nombre de vos membres, les appareils liés à Magicline ou les intégrations de partenaires utilisées, comme EGYM, Zoom ou Connect API.'
     -
       space: ''
     -
       package:
-        headline: ''
+        headline: 'Votre nouveau contrat Magicline en un coup d’œil'
         list:
           -
             image1: 'https://sportalliance.cdn.salesforce-experience.com/cms/delivery/media/MCX4PLBYUEWJEXTHXY2VQFLFRN54?oid=00D2X000000sWe4UAE&channelId=0ap9W000000008lQAA'
-            headline1: ''
-            text1: ''
+            headline1: 'Votre tarif'
+            text1: '${pricing_tier_name} pour ${price_per_month} € par mois'
           -
             image2: 'https://sportalliance.cdn.salesforce-experience.com/cms/delivery/media/MC2WS3XRIGTZD2RGIVVQB3EZS3S4?oid=00D2X000000sWe4UAE&channelId=0ap9W000000008lQAA'
-            headline2: ''
+            headline2: 'Mode de paiement'
             text2: '${payment_method}'
             condition: 'is_paid_pricing_tier == true'
           -
             image3: 'https://sportalliance.cdn.salesforce-experience.com/cms/delivery/media/MCUIFIF3AL7ZBS3IFSYLIDTASU5U?oid=00D2X000000sWe4UAE&channelId=0ap9W000000008lQAA'
-            headline3: ''
+            headline3: 'Début du contrat'
             text3: '${start_date_of_subscription} '
     -
       space: ''
     -
       paragraph:
         headline: 'false'
-        paragraph: ''
+        paragraph: 'Commencez dès maintenant avec votre nouvelle <a href=''https://www.magicline.com/de/preise/?utm_source=magicline&utm_medium=mailing&utm_campaign=automated_upgrade''> formule tarifaire $ {pricing_tier_name} </a>. Dans le <a href=''https://support.magicline.com/hc/de?utm_source=magicline&utm_medium=mailing&utm_campaign=automated_upgrade''> Centre d''aide </a> vous trouverez également de nombreux articles et tutoriels pour utiliser votre Magicline facilement.'
         condition: 'pricing_tier_name == "Basic"'
     -
       paragraph:
         headline: 'false'
-        paragraph: ''
+        paragraph: 'Découvrez les nombreuses nouvelles possibilités avec <a href=''https://www.magicline.com/de/preise/?utm_source=magicline&utm_medium=mailing&utm_campaign=automated_upgrade''> $ {pricing_tier_name} </a> et commencez tout de suite. Dans le <a href=''https://support.magicline.com/hc/de?utm_source=magicline&utm_medium=mailing&utm_campaign=automated_upgrade''> Centre d''aide </a> vous trouverez également de nombreux articles et tutoriels pour utiliser votre Magicline facilement.'
         condition: 'pricing_tier_name == ''Advanced'' || pricing_tier_name == ''Pro'' || pricing_tier_name == ''Ultimate'''
     -
       button:
-        buttonLabel: ''
+        buttonLabel: 'Retour à votre Magicline'
         buttonLink: '${tenant_url}/?campaign_source=automated_upgrade'
     -
       divider: ''
@@ -58,29 +58,29 @@ fr:
       space-smaller: ''
     -
       paragraph:
-        headline: ''
-        paragraph: ''
+        headline: 'Vous avez d''autres questions ?'
+        paragraph: 'Notre équipe se fera un plaisir de vous aider. Envoyez-nous simplement un e-mail à < a href=''mailto:support-fr@magicline.com''> ou utilisez le menu Support de votre Magicline.'
         condition: 'pricing_tier_name == "Basic"'
     -
       paragraph:
-        headline: ''
+        headline: 'Avez-vous d''autres questions?'
         condition: 'pricing_tier_name == ''Advanced'' || pricing_tier_name == ''Pro'' || pricing_tier_name == ''Ultimate'''
-        paragraph: ''
+        paragraph: 'Si vous avez des questions concernant votre contrat, veuillez nous contacter par téléphone du lundi au vendredi entre 9h00 et 18h00 au <a href=''tel:+49404293240,''>+49 151 1150 8642</a> ou envoyez-nous un e-mail à <a href=''mailto:support-de@magicline.com''>support-fr@magicline.com.</a>'
     -
       paragraph:
         headline: 'false'
-        paragraph: ''
+        paragraph: 'Nous vous souhaitons beaucoup de succès pour la suite.'
     -
       paragraph:
         headline: 'false'
-        paragraph: ''
+        paragraph: 'Bien cordialement <br/> <strong> Votre équipe Magicline </strong>'
     -
       space-smaller: ''
     -
       divider: ''
     -
       paragraph:
-        paragraph: ''
+        paragraph: '<small style=''display: block; font-size: clamp(8px, 90%, 3vw); line-height: 120%;''>Le contrat est conclu pour une durée de 24 mois et est prolongé de 12 mois après la durée minimale du contrat. Une résiliation du contrat est possible à tout moment avec un préavis d''un mois avant la fin de la durée du contrat. Les <a href=''${gtc_url}'' target=''_blank'' style=''text-decoration: underline;''>conditions générales</a> d''utilisation du logiciel en vigueur, l''<a target=''_blank'' href=''${privacy_url}'' style=''text-decoration: underline;''>accord sur la protection des données</a> ainsi que l''<a href=''${dpa_url}'' target=''_blank'' style=''text-decoration: underline;''>accord sur le traitement des données (AVV)</a> sont applicables.</small>'
     -
       footer:
         hideUnsubscribe: 'true'

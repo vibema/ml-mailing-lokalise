@@ -2,37 +2,37 @@ nl:
   confirmation-code:
     -
       preheader:
-        paragraph: ''
+        paragraph: 'Bevestig nu je e-mailadres om je bestelling af te ronden.'
     -
       header:
         viewOnline: 'false'
-        websiteUri: ''
+        websiteUri: 'https://magicline.com/nl/'
     -
       headerImage:
-        headline: ''
+        headline: 'Jouw Magicline bevestigingscode'
         imageUri: 'https://sportalliance.cdn.salesforce-experience.com/cms/delivery/media/MC3PD374BR7ZFTREW4G6DLYXUBCA?oid=00D2X000000sWe4UAE&channelId=0ap9W000000008lQAA'
     -
       space: ''
     -
       paragraph:
-        headline: ''
-        paragraph: ''
+        headline: 'Hallo ${ontvanger_voornaam},'
+        paragraph: 'gebruik deze bevestigingscode om je e-mailadres te verifiëren en het bestelproces voor je persoonlijke Magicline af te ronden.'
     -
       code:
         code: '${recipient_email_confirmation_code}'
     -
       paragraph:
-        paragraph: ''
+        paragraph: 'We wensen je veel succes met Magicline.'
     -
       paragraph:
-        paragraph: ''
+        paragraph: 'Vriendelijke groeten <br/> <strong>Jouw Magicline Team</strong>'
     -
       space: ''
     -
       divider: ''
     -
       paragraph:
-        paragraph: ''
+        paragraph: '<small style=''display: block; font-size: clamp(8px, 90%, 3vw); line-height: 120%;''>Het contract wordt afgesloten voor 24 maanden en wordt na de minimale contractperiode telkens met 12 maanden verlengd. Het contract kan te allen tijde worden opgezegd met een opzegtermijn van een maand tot het einde van de contractperiode. Van toepassing zijn de geldende <a href=''${gtc_url}'' target=''_blank'' style=''text-decoration: underline;''>Algemene Voorwaarden</a> voor het gebruik van software, de <a target=''_blank'' href=''${privacy_url}'' style=''text-decoration: underline;''>overeenkomst inzake gegevensbescherming</a> en de <a href=''${dpa_url}'' target=''_blank'' style=''text-decoration: underline;''>overeenkomst inzake de verwerking van gegevens in opdracht (AVV)</a>.</small>'
     -
       footer:
         hideUnsubscribe: 'true'

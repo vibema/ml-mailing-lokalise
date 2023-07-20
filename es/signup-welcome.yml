@@ -2,15 +2,15 @@ es:
   signup-welcome:
     -
       preheader:
-        paragraph: ''
+        paragraph: 'Pruébalo ahora 30 días gratis.'
     -
       header:
         viewOnline: 'false'
-        websiteUri: ''
+        websiteUri: 'https://magicline.com/es/'
     -
       headerImage:
-        headline: ''
-        subline: ''
+        headline: 'Demostración gratuita de Magicline'
+        subline: 'Prueba ahora durante 30 días'
         imageUri: 'https://sportalliance.cdn.salesforce-experience.com/cms/delivery/media/MC3PD374BR7ZFTREW4G6DLYXUBCA?oid=00D2X000000sWe4UAE&channelId=0ap9W000000008lQAA'
     -
       space: ''
@@ -18,23 +18,23 @@ es:
       space-smaller: ''
     -
       paragraph:
-        headline: ''
-        paragraph: ''
+        headline: 'Estimado Magicliner,'
+        paragraph: 'Qué bien que estés aquí y quieras conocer Magicline como demo. Ahora tiene a tu disposición una cuenta de prueba <b>gratuita durante los próximos 30 días</b>. Es la mejor manera de conocer nuestro software.'
     -
       space-smaller: ''
     -
       paragraph:
         headline: 'false'
-        paragraph: ''
+        paragraph: '¿Desea una visión personal? Reserva ahora tu consulta gratuita y descubra cómo Magicline puede ayudarte a aumentar tus ventas y tu crecimiento.'
     -
       space-smaller: ''
     -
       button:
-        buttonLabel: ''
-        buttonLink: ''
+        buttonLabel: 'Reserve una cita gratuita'
+        buttonLink: 'https://demodesk.com/book/sport-alliance-team/magicline/?utm_source=magicline&utm_medium=mailing&utm_campaign=demo_sign_up'
     -
       tenant:
-        headline: ''
+        headline: 'tus datos de acceso'
         list:
           -
             image1: 'https://sportalliance.cdn.salesforce-experience.com/cms/delivery/media/MCN773B7PYKFAU3E2PJ3ZA3W5RZI?oid=00D2X000000sWe4UAE&channelId=0ap9W000000008lQAA'
@@ -44,27 +44,27 @@ es:
             image2: 'https://sportalliance.cdn.salesforce-experience.com/cms/delivery/media/MCPL3WDWYZ6VC37BYVZ6PQOCVFYY?oid=00D2X000000sWe4UAE&channelId=0ap9W000000008lQAA'
             text2: '${recipient_email}'
             link2: ''
-        paragraph: ''
+        paragraph: '<b>Es bueno saberlo:</b> Todos los datos que introduzcas sólo se guardarán a efectos de demostración y se eliminarán transcurridos 30 días. Puedes cambiar al <a href=''${tenant_url}/?checkout_campaign=true&checkout_campaign_source=demo_sign_up''>paquete gratuito</a> en cualquier momento.'
     -
       space-smaller: ''
     -
       space: ''
     -
       paragraph:
-        headline: ''
-        paragraph: ''
+        headline: 'Tu cita personal'
+        paragraph: 'Nuestro equipo estará encantado de ayudarte y mostrarte las posibilidades que ofrece Magicline en una breve cita.'
     -
       button:
-        buttonLabel: ''
-        buttonLink: ''
+        buttonLabel: 'Reserva una cita gratuita'
+        buttonLink: 'https://demodesk.com/book/sport-alliance-team/magicline/?utm_source=magicline&utm_medium=mailing&utm_campaign=demo_sign_up'
     -
       paragraph:
         headline: 'false'
-        paragraph: ''
+        paragraph: 'Te deseamos mucha diversión con tu cuenta de demostración.'
     -
       paragraph:
         headline: 'false'
-        paragraph: ''
+        paragraph: 'Saludos cordiales <br/> <strong>Tu equipo Magicline</strong>'
     -
       space: ''
     -
@@ -72,7 +72,7 @@ es:
     -
       paragraph:
         headline: 'false'
-        paragraph: ''
+        paragraph: '<small style=''display: block; font-size: clamp(8px, 90%, 3vw); line-height: 120%;''>El contrato tiene una duración de 24 meses y se prorroga 12 meses después del periodo contractual mínimo en cada caso. El contrato podrá rescindirse en cualquier momento con un preaviso de un mes a la finalización del plazo contractual. Se aplicarán las respectivas <a href=''${gtc_url}'' target=''_blank'' style=''text-decoration: underline;''>CGC</a> vigentes para el uso de software, el <a target=''_blank'' href=''${privacy_url}'' style=''text-decoration: underline;''>acuerdo de protección de datos</a> y el <a href=''${dpa_url}'' target=''_blank'' style=''text-decoration: underline;''>acuerdo sobre el procesamiento encargado (AVV)</a>.</small>'
     -
       footer:
         hideUnsubscribe: 'true'

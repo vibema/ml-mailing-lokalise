@@ -3,45 +3,45 @@ es:
     -
       header:
         viewOnline: 'false'
-        websiteUri: ''
+        websiteUri: 'https://magicline.com/es/'
     -
       headerImage:
-        headline: ''
+        headline: 'Tu Magicline se ha convertido automáticamente'
         imageUri: 'https://sportalliance.cdn.salesforce-experience.com/cms/delivery/media/MC3PD374BR7ZFTREW4G6DLYXUBCA?oid=00D2X000000sWe4UAE&channelId=0ap9W000000008lQAA'
     -
       space: ''
     -
       paragraph:
-        headline: ''
-        paragraph: ''
+        headline: 'Hola ${nombre_del_receptor},'
+        paragraph: 'Tu Magicline se ha actualizado hoy automáticamente al paquete de precio inmediatamente superior porque se ha alcanzado el límite de su contrato. El límite depende del número de miembros, dispositivos conectados a Magicline o integraciones de socios utilizadas, como EGYM, Zoom o Connect API.'
     -
       space: ''
     -
       package:
-        headline: ''
+        headline: 'Tu nuevo contrato Magicline de un vistazo'
         list:
           -
             image1: 'https://sportalliance.cdn.salesforce-experience.com/cms/delivery/media/MCX4PLBYUEWJEXTHXY2VQFLFRN54?oid=00D2X000000sWe4UAE&channelId=0ap9W000000008lQAA'
-            headline1: ''
-            text1: ''
+            headline1: 'tu tarifa'
+            text1: '${pricing_tier_name} ${price_per_month} € mtl.'
           -
             image2: 'https://sportalliance.cdn.salesforce-experience.com/cms/delivery/media/MC2WS3XRIGTZD2RGIVVQB3EZS3S4?oid=00D2X000000sWe4UAE&channelId=0ap9W000000008lQAA'
-            headline2: ''
+            headline2: 'Forma de pago'
             text2: '${payment_method}'
             condition: 'is_paid_pricing_tier == true'
           -
             image3: 'https://sportalliance.cdn.salesforce-experience.com/cms/delivery/media/MCUIFIF3AL7ZBS3IFSYLIDTASU5U?oid=00D2X000000sWe4UAE&channelId=0ap9W000000008lQAA'
-            headline3: ''
+            headline3: 'Inicio del contrato'
             text3: '${start_date_of_subscription} '
     -
       space: ''
     -
       paragraph:
         headline: 'false'
-        paragraph: ''
+        paragraph: 'Empiece ahora mismo con tu nuevo <a href=''https://www.magicline.com/de/preise/?utm_source=magicline&utm_medium=mailing&utm_campaign=automated_upgrade''>paquete de precios ${pricing_tier_name}</a>. En el <a href=''https://support.magicline.com/hc/de?utm_source=magicline&utm_medium=mailing&utm_campaign=automated_upgrade''>Centro de Ayuda</a> también encontrarás mucha ayuda útil sobre cómo utilizar tu Magicline.'
     -
       button:
-        buttonLabel: ''
+        buttonLabel: 'Volver a tu Magicline'
         buttonLink: '${tenant_url}'
     -
       divider: ''
@@ -49,23 +49,23 @@ es:
       space: ''
     -
       paragraph:
-        headline: ''
-        paragraph: ''
+        headline: '¿Tienes alguna pregunta?'
+        paragraph: 'Nuestro equipo estará encantado de ayudarte. Solo tiene que enviarnos un correo electrónico a <a href=''mailto:support-de@magicline.com''>support-de@magicline.com</a> o utilizar la función de chat de tu Magicline.'
     -
       paragraph:
         headline: 'false'
-        paragraph: ''
+        paragraph: 'Te deseamos mucho éxito en tu gimnasio.'
     -
       paragraph:
         headline: 'false'
-        paragraph: ''
+        paragraph: 'Saludos cordiales <br/> <strong>Tu equipo Magicline</strong>'
     -
       space: ''
     -
       divider: ''
     -
       paragraph:
-        paragraph: ''
+        paragraph: '<small style=''display: block; font-size: clamp(8px, 90%, 3vw); line-height: 120%;''>El contrato tiene una duración de 24 meses y se prorroga 12 meses después del periodo contractual mínimo en cada caso. El contrato podrá rescindirse en cualquier momento con un preaviso de un mes a la finalización del plazo contractual. Se aplicarán las respectivas <a href=''${gtc_url}'' target=''_blank'' style=''text-decoration: underline;''>CGC</a> vigentes para el uso de software, el <a target=''_blank'' href=''${privacy_url}'' style=''text-decoration: underline;''>acuerdo de protección de datos</a> y el <a href=''${dpa_url}'' target=''_blank'' style=''text-decoration: underline;''>acuerdo sobre el procesamiento encargado (AVV)</a>.</small>'
     -
       footer:
         hideUnsubscribe: 'true'

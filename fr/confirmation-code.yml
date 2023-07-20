@@ -2,37 +2,37 @@ fr:
   confirmation-code:
     -
       preheader:
-        paragraph: ''
+        paragraph: 'Confirmez votre adresse e-mail maintenant pour terminer votre commande.'
     -
       header:
         viewOnline: 'false'
-        websiteUri: ''
+        websiteUri: 'https://www.magicline.com/fr/'
     -
       headerImage:
-        headline: ''
+        headline: 'Votre code de confirmation Magicline'
         imageUri: 'https://sportalliance.cdn.salesforce-experience.com/cms/delivery/media/MC3PD374BR7ZFTREW4G6DLYXUBCA?oid=00D2X000000sWe4UAE&channelId=0ap9W000000008lQAA'
     -
       space: ''
     -
       paragraph:
-        headline: ''
-        paragraph: ''
+        headline: 'Bonjour $ {recipient_firstname} ,'
+        paragraph: 'Utilisez ce code de confirmation pour vérifier votre adresse e-mail et terminer le processus de commande de votre Magicline.'
     -
       code:
         code: '${recipient_email_confirmation_code}'
     -
       paragraph:
-        paragraph: ''
+        paragraph: 'Nous vous souhaitons beaucoup de succès avec Magicline.'
     -
       paragraph:
-        paragraph: ''
+        paragraph: 'Bien cordialement <br/> <strong> Votre équipe Magicline </strong>'
     -
       space: ''
     -
       divider: ''
     -
       paragraph:
-        paragraph: ''
+        paragraph: '<small style=''display: block; font-size: clamp(8px, 90%, 3vw); line-height: 120%;''>Le contrat est conclu pour une durée de 24 mois et est prolongé de 12 mois après la durée minimale du contrat. Une résiliation du contrat est possible à tout moment avec un préavis d''un mois avant la fin de la durée du contrat. Les <a href=''${gtc_url}'' target=''_blank'' style=''text-decoration: underline;''>conditions générales</a> d''utilisation du logiciel en vigueur, l''<a target=''_blank'' href=''${privacy_url}'' style=''text-decoration: underline;''>accord sur la protection des données</a> ainsi que l''<a href=''${dpa_url}'' target=''_blank'' style=''text-decoration: underline;''>accord sur le traitement des données</a> sont applicables.</small>'
     -
       footer:
         hideUnsubscribe: 'true'

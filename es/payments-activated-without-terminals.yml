@@ -2,7 +2,7 @@ es:
   payments-activated-without-terminals:
     -
       preheader:
-        paragraph: 'Tu registro de Magicline Payments para {{studio_name}} - {{legal_entity_name}} se ha completado'
+        paragraph: 'Tu registro de Magicline Payments para ${studio_name} - ${legal_entity_name} se ha completado'
     -
       header:
         viewOnline: 'false'
@@ -17,7 +17,7 @@ es:
       space: ''
     -
       paragraph:
-        headline: 'Hola {{legal_representative_first_name}},'
+        headline: 'Hola ${legal_representative_first_name},'
         paragraph: '¡Felicidades! Tu registro de Magicline Payments ha sido exitoso y tu cuenta ahora está activa.'
     -
       space: ''
@@ -25,7 +25,7 @@ es:
       paragraphHighlight:
         headline: '¿Sabías que?'
         paragraph: 'Magicline Payments también le permite ofrecer pagos sin efectivo a tus clientes en tu gimnasio. Así, tus socios podrán realizar fácilmente pagos sin efectivo, por ejemplo, con Girocard, tarjeta de crédito, Apple Pay o Twint. Simplemente utiliza la App Store para solicitar tu terminal ahora mismo:'
-        buttonLink: 'https://{{tenant}}.web.magicline.com/?orgUnitId={{studio_id}}#/appstore/magiclinepayments'
+        buttonLink: 'https://${tenant}.web.magicline.com/?orgUnitId=${studio_id}#/appstore/magiclinepayments'
         buttonLabel: 'Ordenar ahora'
     -
       listArrow:

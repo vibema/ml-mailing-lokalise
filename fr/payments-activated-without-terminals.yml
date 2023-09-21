@@ -2,7 +2,7 @@ fr:
   payments-activated-without-terminals:
     -
       preheader:
-        paragraph: 'Votre inscription à Magicline Payments pour {{studio_name}} - {{legal_entity_name}} est terminée'
+        paragraph: 'Votre inscription à Magicline Payments pour ${studio_name} - ${legal_entity_name} est terminée'
     -
       header:
         viewOnline: 'false'
@@ -17,7 +17,7 @@ fr:
       space: ''
     -
       paragraph:
-        headline: 'Bonjour {{legal_representative_first_name}} ,'
+        headline: 'Bonjour ${legal_representative_first_name} ,'
         paragraph: 'Toutes nos félicitations! Votre inscription à Magicline Payments a réussi et votre compte est désormais actif.'
     -
       space: ''
@@ -25,7 +25,7 @@ fr:
       paragraphHighlight:
         headline: 'Le saviez-vous ?'
         paragraph: 'Magicline Payments vous permet également de proposer des paiements sans espèces à vos clients en salle. Votre client peut donc facilement effectuer des paiements sans espèces, par exemple par Girocard, carte de crédit, Apple Pay ou Twint. Il vous suffit d''utiliser l''App Store pour commander dès maintenant votre terminal :'
-        buttonLink: 'https://{{tenant}}.web.magicline.com/?orgUnitId={{studio_id}}#/appstore/magiclinepayments'
+        buttonLink: 'https://${tenant}.web.magicline.com/?orgUnitId=${studio_id}#/appstore/magiclinepayments'
         buttonLabel: 'Commandez maintenant'
     -
       listArrow:

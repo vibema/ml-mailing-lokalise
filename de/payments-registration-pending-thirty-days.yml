@@ -2,11 +2,11 @@ de:
   payments-registration-pending-thirty-days:
     -
       preheader:
-        paragraph: ''
+        paragraph: 'Your action is urgently needed – Your Magicline Payments registration is incomplete'
     -
       header:
         viewOnline: 'false'
-        websiteUri: ''
+        websiteUri: 'https://www.magicline.com/en/features/payments/'
     -
       space: ''
     -
@@ -17,27 +17,27 @@ de:
       space: ''
     -
       paragraph:
-        headline: ''
-        paragraph: ''
+        headline: 'Hello ${legal_representative_first_name},'
+        paragraph: 'your process to become a Magicline Payments user is still incomplete. Required information is still missing to complete your registration.'
     -
       paragraph:
         headline: ''
-        paragraph: ''
+        paragraph: '<strong>Please note: If the necessary data is not submitted within the next 72 hours, your registration will be closed.</strong>'
     -
       paragraph:
-        paragraph: ''
+        paragraph: 'To finish your registration, click here and fill in the necessary data – we will take care of the rest:'
     -
       space-smaller: ''
     -
       button:
-        buttonLink: ''
-        buttonLabel: ''
+        buttonLink: 'https://${tenant}.web.magicline.com/?orgUnitId=${studio_id}#/appstore/magiclinepayments'
+        buttonLabel: 'Continue activation'
     -
       space: ''
     -
       paragraphHighlight:
-        headline: ''
-        paragraph: ''
+        headline: 'Did you know?'
+        paragraph: 'Magicline Payments offers you one comprehensive solution for all your payment processes. From one-time payments to SEPA and all major credit cards: We offer the highest security standards at no additional costs. Learn more here: <a href=''https://www.magicline.com/en/features/payments/''>https://www.magicline.com/en/features/payments/</a>'
     -
       space-smaller: ''
     -
@@ -46,10 +46,10 @@ de:
       space-smaller: ''
     -
       paragraph:
-        paragraph: ''
+        paragraph: 'If you have any questions or need assistance, do not hesitate to answer to this e-mail or reach out to us here: <a href=''mailto:mlpayments@magicline.com''>mlpayments@magicline.com</a>'
     -
       paragraphBold:
-        paragraph: ''
+        paragraph: '<strong>Your Magicline Team</strong>'
     -
       space: ''
     -

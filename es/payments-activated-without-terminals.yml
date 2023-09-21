@@ -2,11 +2,11 @@ es:
   payments-activated-without-terminals:
     -
       preheader:
-        paragraph: ''
+        paragraph: 'Tu registro de Magicline Payments para {{studio_name}} - {{legal_entity_name}} se ha completado'
     -
       header:
         viewOnline: 'false'
-        websiteUri: ''
+        websiteUri: 'https://www.magicline.com/es/features/payments/'
     -
       space: ''
     -
@@ -17,43 +17,43 @@ es:
       space: ''
     -
       paragraph:
-        headline: ''
-        paragraph: ''
+        headline: 'Hola {{legal_representative_first_name}},'
+        paragraph: '¡Felicidades! Tu registro de Magicline Payments ha sido exitoso y tu cuenta ahora está activa.'
     -
       space: ''
     -
       paragraphHighlight:
-        headline: ''
-        paragraph: ''
-        buttonLink: ''
-        buttonLabel: ''
+        headline: '¿Sabías que?'
+        paragraph: 'Magicline Payments también le permite ofrecer pagos sin efectivo a tus clientes en tu gimnasio. Así, tus socios podrán realizar fácilmente pagos sin efectivo, por ejemplo, con Girocard, tarjeta de crédito, Apple Pay o Twint. Simplemente utiliza la App Store para solicitar tu terminal ahora mismo:'
+        buttonLink: 'https://{{tenant}}.web.magicline.com/?orgUnitId={{studio_id}}#/appstore/magiclinepayments'
+        buttonLabel: 'Ordenar ahora'
     -
       listArrow:
-        headline: ''
-        paragraph: ''
-        bullet1: ''
-        bullet2: ''
-        bullet3: ''
-        bullet4: ''
-        bullet5: ''
-        bullet6: ''
-        bullet7: ''
-        bullet8: ''
-        bullet9: ''
-        bullet10: ''
+        headline: 'Centro de ayuda'
+        paragraph: 'Si tiene algo de tiempo libre, ¿por qué no lees los artículos de nuestro Centro de ayuda para sacar el máximo partido a Magicline Payments?'
+        bullet1: 'Activación del terminal de tarjeta'
+        bullet2: 'Cómo utilizar el terminal de tarjetas para las cajas registradoras'
+        bullet3: 'Gestión de cuentas por cobrar con enlaces de magicline Payment'
+        bullet4: 'Activar PayPal como método de pago'
+        bullet5: 'Recarga crédito de consumo en la app MySports'
+        bullet6: 'Cómo configurar un servicio de check-in para ventas (online)'
+        bullet7: 'Domiciliaciones SEPA con Magicline Payments: cobro automático y sincronización de domiciliaciones devueltas'
+        bullet8: 'Facturas de Magicline Payments'
+        bullet9: 'Activación de otros gimnasios para Magicline Payments'
+        bullet10: 'Pagos de ventas realizadas con Magicline Payments a mi cuenta bancaria y depósitos'
     -
       divider: ''
     -
       space-smaller: ''
     -
       paragraph:
-        paragraph: ''
+        paragraph: 'Si tienes alguna pregunta o necesitas ayuda, no dudes en responder a este correo electrónico o contacta con nosotros aquí: <a href=''mailto:mlpayments@magicline.com''>mlpayments@magicline.com</a>'
     -
       paragraph:
-        paragraph: ''
+        paragraph: 'Disfrute de Magicline Payments'
     -
       paragraphBold:
-        paragraph: ''
+        paragraph: '<strong>Tu equipo Magicline</strong>'
     -
       space: ''
     -

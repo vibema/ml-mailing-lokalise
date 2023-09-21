@@ -2,11 +2,11 @@ de:
   payments-activated-without-terminals:
     -
       preheader:
-        paragraph: ''
+        paragraph: 'Your Magicline Payments registration for ${studio_name} - ${legal_entity_name} has been completed'
     -
       header:
         viewOnline: 'false'
-        websiteUri: ''
+        websiteUri: 'https://www.magicline.com/en/features/payments/'
     -
       space: ''
     -
@@ -17,43 +17,43 @@ de:
       space: ''
     -
       paragraph:
-        headline: ''
-        paragraph: ''
+        headline: 'Hello ${legal_representative_first_name},'
+        paragraph: 'Congratulations! Your Magicline Payments registration has been successful and your account is now active.'
     -
       space: ''
     -
       paragraphHighlight:
-        headline: ''
-        paragraph: ''
-        buttonLink: ''
-        buttonLabel: ''
+        headline: 'Did you know?'
+        paragraph: 'Magicline Payments also allows you to offer cashless payments to your customers in your studio. Your member can therefore easily make cashless payments e.g. by Girocard, credit card, Apple Pay, or Twint. Simply use the App Store to order your terminal right now:'
+        buttonLink: 'https://${tenant}.web.magicline.com/?orgUnitId=${studio_id}#/appstore/magiclinepayments'
+        buttonLabel: 'Order now'
     -
       listArrow:
-        headline: ''
-        paragraph: ''
-        bullet1: ''
-        bullet2: ''
-        bullet3: ''
-        bullet4: ''
-        bullet5: ''
-        bullet6: ''
-        bullet7: ''
-        bullet8: ''
-        bullet9: ''
-        bullet10: ''
+        headline: 'Help Center'
+        paragraph: 'If you have some time on your hands, why don’t you read our Help Center articles to make the best use of Magicline Payments:'
+        bullet1: 'Activation of the card terminal'
+        bullet2: 'How to use card terminal for the cash registers'
+        bullet3: 'Receivables management with Magicline payment links'
+        bullet4: 'Activate PayPal as payment method'
+        bullet5: 'Top up consumption credit in the MySports app'
+        bullet6: 'How to configure a check-in service for (online) sales'
+        bullet7: 'SEPA direct debits with Magicline Payments: automatic collection and synchronization of returned direct debits'
+        bullet8: 'Invoices for Magicline Payments'
+        bullet9: 'Activation of further studios for Magicline Payments'
+        bullet10: 'Payouts of sales made with Magicline Payments to my bank account and deposits'
     -
       divider: ''
     -
       space-smaller: ''
     -
       paragraph:
-        paragraph: ''
+        paragraph: 'If you have any questions or need assistance, do not hesitate to answer to this e-mail or reach out to us here: <a href=''mailto:mlpayments@magicline.com''>mlpayments@magicline.com</a>'
     -
       paragraph:
-        paragraph: ''
+        paragraph: 'Enjoy Magicline Payments'
     -
       paragraphBold:
-        paragraph: ''
+        paragraph: '<strong>Your Magicline Team</strong>'
     -
       space: ''
     -

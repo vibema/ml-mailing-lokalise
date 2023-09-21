@@ -2,11 +2,11 @@ de:
   payments-adyen-verification-invalid:
     -
       preheader:
-        paragraph: ''
+        paragraph: 'Your action is required now – Your Magicline Payments registration was not successful '
     -
       header:
         viewOnline: 'false'
-        websiteUri: ''
+        websiteUri: 'https://www.magicline.com/en/features/payments/'
     -
       space: ''
     -
@@ -17,26 +17,26 @@ de:
       space: ''
     -
       paragraph:
-        headline: ''
-        paragraph: ''
+        headline: 'Hello ${legal_representative_first_name},'
+        paragraph: 'Oh no! Looks like your Magicline Payments verification was not successful. '
     -
       paragraph:
         headline: ''
-        paragraph: ''
+        paragraph: 'No need to worry though: Check your files again and resubmit your verification by clicking here:'
     -
       button:
-        buttonLink: ''
-        buttonLabel: ''
+        buttonLink: www.google.de
+        buttonLabel: 'Continue activation'
     -
       divider: ''
     -
       space-smaller: ''
     -
       paragraph:
-        paragraph: ''
+        paragraph: 'If you have any questions or need assistance, do not hesitate to answer to this e-mail or reach out to us here: <a href=''mailto:mlpayments@magicline.com''>mlpayments@magicline.com</a>'
     -
       paragraphBold:
-        paragraph: ''
+        paragraph: '<strong>Your Magicline Team</strong>'
     -
       space: ''
     -

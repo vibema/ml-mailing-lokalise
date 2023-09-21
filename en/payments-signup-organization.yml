@@ -2,7 +2,7 @@ en:
   payments-signup-organization:
     -
       preheader:
-        paragraph: 'Welcome to Magicline Payments ${studio_name} - ${legal_entity_name}!'
+        paragraph: 'Welcome to Magicline Payments {{studio_name}} - {{legal_entity_name}}!'
     -
       header:
         viewOnline: 'false'
@@ -17,8 +17,8 @@ en:
       space-smaller: ''
     -
       paragraph:
-        headline: 'Hello ${legal_representative_first_name},'
-        paragraph: 'Thank you for registering <strong>${studio_name} - ${legal_entity_name}</strong> to join Magicline Payments, your integrated solution for secure payment transactions.'
+        headline: 'Hello {{legal_representative_first_name}},'
+        paragraph: 'Thank you for registering <strong>{{studio_name}} - {{legal_entity_name}}</strong> to join Magicline Payments, your integrated solution for secure payment transactions.'
     -
       paragraph:
         headline: ''
@@ -27,7 +27,7 @@ en:
       space-smaller: ''
     -
       button:
-        buttonLink: '${tenant_url}/?orgUnitId=${organization_unit_id}#/appstore/magiclinepayments'
+        buttonLink: www.google.de
         buttonLabel: 'Continue activation'
     -
       space: ''
@@ -45,7 +45,7 @@ en:
         paragraph: '<strong>Important:</strong> All documents have to have a date issued less than 12 months ago, or be revalidated by placing a handwritten recent date and a readable signature. If this is not provided, the registration process will not be successful and you will be asked to provide the data again.'
     -
       paragraph:
-        paragraph: 'If you ordered a terminal for your payments, it will be sent out after your registration has been completed successfully. If you have not ordered one yet, you can do so in the App Store <a href=''${tenant_url}/?orgUnitId=${organization_unit_id}#/appstore/magiclinepayments''>now</a>.'
+        paragraph: 'If you ordered a terminal for your payments, it will be sent out after your registration has been completed successfully. If you have not ordered one yet, you can do so in the App Store <a href=''https://{{tenant}}.web.magicline.com/?orgUnitId={{studio_id}}#/appstore/magiclinepayments''>now</a>.'
     -
       space: ''
     -

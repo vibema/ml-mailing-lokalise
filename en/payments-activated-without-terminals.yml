@@ -2,7 +2,7 @@ en:
   payments-activated-without-terminals:
     -
       preheader:
-        paragraph: 'Your Magicline Payments registration for ${studio_name} - ${legal_entity_name} has been completed'
+        paragraph: 'Your Magicline Payments registration for {{studio_name}} - {{legal_entity_name}} has been completed'
     -
       header:
         viewOnline: 'false'
@@ -17,7 +17,7 @@ en:
       space: ''
     -
       paragraph:
-        headline: 'Hello ${legal_representative_first_name},'
+        headline: 'Hello {{legal_representative_first_name}},'
         paragraph: 'Congratulations! Your Magicline Payments registration has been successful and your account is now active.'
     -
       space: ''
@@ -25,7 +25,7 @@ en:
       paragraphHighlight:
         headline: 'Did you know?'
         paragraph: 'Magicline Payments also allows you to offer cashless payments to your customers in your studio. Your member can therefore easily make cashless payments e.g. by Girocard, credit card, Apple Pay, or Twint. Simply use the App Store to order your terminal right now:'
-        buttonLink: 'https://${tenant}.web.magicline.com/?orgUnitId=${studio_id}#/appstore/magiclinepayments'
+        buttonLink: 'https://{{tenant}}.web.magicline.com/?orgUnitId={{studio_id}}#/appstore/magiclinepayments'
         buttonLabel: 'Order now'
     -
       listArrow:

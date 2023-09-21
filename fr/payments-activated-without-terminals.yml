@@ -2,11 +2,11 @@ fr:
   payments-activated-without-terminals:
     -
       preheader:
-        paragraph: ''
+        paragraph: 'Votre inscription à Magicline Payments pour {{studio_name}} - {{legal_entity_name}} est terminée'
     -
       header:
         viewOnline: 'false'
-        websiteUri: ''
+        websiteUri: 'https://www.magicline.com/fr/features/payments/?utm_source=magicline%2Ecom&utm_medium=direct'
     -
       space: ''
     -
@@ -17,43 +17,43 @@ fr:
       space: ''
     -
       paragraph:
-        headline: ''
-        paragraph: ''
+        headline: 'Bonjour {{legal_representative_first_name}} ,'
+        paragraph: 'Toutes nos félicitations! Votre inscription à Magicline Payments a réussi et votre compte est désormais actif.'
     -
       space: ''
     -
       paragraphHighlight:
-        headline: ''
-        paragraph: ''
-        buttonLink: ''
-        buttonLabel: ''
+        headline: 'Le saviez-vous ?'
+        paragraph: 'Magicline Payments vous permet également de proposer des paiements sans espèces à vos clients en salle. Votre client peut donc facilement effectuer des paiements sans espèces, par exemple par Girocard, carte de crédit, Apple Pay ou Twint. Il vous suffit d''utiliser l''App Store pour commander dès maintenant votre terminal :'
+        buttonLink: 'https://{{tenant}}.web.magicline.com/?orgUnitId={{studio_id}}#/appstore/magiclinepayments'
+        buttonLabel: 'Commandez maintenant'
     -
       listArrow:
-        headline: ''
-        paragraph: ''
-        bullet1: ''
-        bullet2: ''
-        bullet3: ''
-        bullet4: ''
-        bullet5: ''
-        bullet6: ''
-        bullet7: ''
-        bullet8: ''
-        bullet9: ''
-        bullet10: ''
+        headline: 'Centre d''aide'
+        paragraph: 'Si vous avez un peu de temps devant vous, pourquoi ne pas lire les articles de notre Centre d''aide pour utiliser au mieux Magicline Payments :'
+        bullet1: 'Activation du terminal de carte'
+        bullet2: 'Utiliser le terminal de carte en caisse'
+        bullet3: 'Gestion des impayés avec les liens de paiement en ligne'
+        bullet4: 'Activer PayPal comme moyen de paiement'
+        bullet5: 'Recharge du crédit à consommer dans l''application MySports'
+        bullet6: 'Configurer et vendre un service de check-in en ligne'
+        bullet7: 'Prélèvements SEPA avec Magicline Payments : collectes et synchronisations automatiques des échecs de prélèvements'
+        bullet8: 'Factures Magicline Payments'
+        bullet9: 'Activer d''autres salles avec Magicline Payments'
+        bullet10: 'Paiements des ventes effectuées avec Magicline Payments sur mon compte bancaire'
     -
       divider: ''
     -
       space-smaller: ''
     -
       paragraph:
-        paragraph: ''
+        paragraph: "Si vous avez des questions ou avez besoin d'aide, n'hésitez pas à répondre à cet e-mail ou à nous contacter ici\_: <a href='mailto:mlpayments@magicline.com'> mlpayments@magicline.com </a>"
     -
       paragraph:
-        paragraph: ''
+        paragraph: 'Profitez de Magicline Payments'
     -
       paragraphBold:
-        paragraph: ''
+        paragraph: '<strong> Votre équipe Magicline </strong>'
     -
       space: ''
     -

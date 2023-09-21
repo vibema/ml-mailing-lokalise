@@ -17,7 +17,7 @@ en:
       space: ''
     -
       paragraph:
-        headline: 'Hello ${legal_representative_first_name},'
+        headline: 'Hello {{legal_representative_first_name}},'
         paragraph: 'unfortunately, your Magicline Payments registration has been rejected and the registration process was terminated.'
     -
       space-smaller: ''

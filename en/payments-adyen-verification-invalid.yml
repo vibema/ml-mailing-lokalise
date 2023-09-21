@@ -17,7 +17,7 @@ en:
       space: ''
     -
       paragraph:
-        headline: 'Hello ${legal_representative_first_name},'
+        headline: 'Hello {{legal_representative_first_name}},'
         paragraph: 'Oh no! Looks like your Magicline Payments verification was not successful. '
     -
       paragraph:

@@ -17,7 +17,7 @@ en:
       space: ''
     -
       paragraph:
-        headline: 'Hello {{legal_representative_first_name}},'
+        headline: 'Hello ${legal_representative_first_name},'
         paragraph: 'your process to become a Magicline Payments user is still incomplete. Required information is still missing to complete your registration.'
     -
       paragraph:
@@ -30,7 +30,7 @@ en:
       space-smaller: ''
     -
       button:
-        buttonLink: 'https://{{tenant}}.web.magicline.com/?orgUnitId={{studio_id}}#/appstore/magiclinepayments'
+        buttonLink: 'https://${tenant}.web.magicline.com/?orgUnitId=${studio_id}#/appstore/magiclinepayments'
         buttonLabel: 'Continue activation'
     -
       space: ''

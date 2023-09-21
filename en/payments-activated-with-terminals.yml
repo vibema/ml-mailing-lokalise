@@ -2,7 +2,7 @@ en:
   payments-activated-with-terminals:
     -
       preheader:
-        paragraph: 'Your Magicline Payments registration for {{studio_name}} - {{legal_entity_name}} has been completed'
+        paragraph: 'Your Magicline Payments registration for ${studio_name} - ${legal_entity_name} has been completed'
     -
       header:
         viewOnline: 'false'
@@ -17,7 +17,7 @@ en:
       space: ''
     -
       paragraph:
-        headline: 'Hello {{legal_representative_first_name}},'
+        headline: 'Hello ${legal_representative_first_name},'
         paragraph: 'Congratulations! Your Magicline Payments registration has been successful and your account is now active.'
     -
       paragraph:

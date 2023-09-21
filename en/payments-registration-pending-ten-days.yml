@@ -17,15 +17,15 @@ en:
       space: ''
     -
       paragraph:
-        headline: 'Hello {{legal_representative_first_name}},'
-        paragraph: 'On {{registration_date}} you began your process to become a Magicline Payments member.  Unfortunately, some information is missing to complete your registration. '
+        headline: 'Hello ${legal_representative_first_name},'
+        paragraph: 'On ${registration_date} you began your process to become a Magicline Payments member.  Unfortunately, some information is missing to complete your registration. '
     -
       paragraph:
         headline: ''
         paragraph: 'Click here and fill in the necessary data – we will take care of the rest: '
     -
       button:
-        buttonLink: 'https://{{tenant}}.web.magicline.com/?orgUnitId={{studio_id}}#/appstore/magiclinepayments'
+        buttonLink: 'https://${tenant}.web.magicline.com/?orgUnitId=${studio_id}#/appstore/magiclinepayments'
         buttonLabel: 'Continue activation'
     -
       space: ''
